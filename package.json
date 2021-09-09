@@ -52,7 +52,7 @@
     "lerna-changelog": "2.1.0",
     "loader.js": "4.7.0",
     "mocha": "9.1.1",
-    "qunit": "2.17.0",
+    "qunit": "2.17.1",
     "qunit-dom": "2.0.0",
     "release-it": "14.11.5",
     "release-it-lerna-changelog": "3.1.0"
