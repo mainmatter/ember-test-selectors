@@ -8,7 +8,7 @@ function isTestSelector(attribute) {
   return TEST_SELECTOR_PREFIX.test(attribute);
 }
 
-module.exports = function() {
+module.exports = function () {
   return {
     name: 'strip-test-selectors',
 
@@ -26,14 +26,14 @@ module.exports = function() {
         node.params = node.params.filter(param => !isTestSelector(param.original));
         node.hash.pairs = node.hash.pairs.filter(pair => !isTestSelector(pair.key));
       },
-    }
+    },
   };
 };
 
-module.exports.baseDir = function() {
+module.exports.baseDir = function () {
   return __dirname;
 };
 
-module.exports.cacheKey = function() {
+module.exports.cacheKey = function () {
   return 'strip-test-selectors';
 };

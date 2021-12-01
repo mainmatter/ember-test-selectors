@@ -15,11 +15,14 @@ module.exports = {
     let addonOptions = appOptions['ember-test-selectors'] || {};
 
     if (addonOptions.environments) {
-      ui.writeDeprecateLine('The "environments" option in "ember-test-selectors" has been replaced ' +
-        'with the "strip" option. Use e.g. "strip: EmberApp.env() === \'production\'" instead to ' +
-        'recreate the old behavior.', false);
+      ui.writeDeprecateLine(
+        'The "environments" option in "ember-test-selectors" has been replaced ' +
+          'with the "strip" option. Use e.g. "strip: EmberApp.env() === \'production\'" instead to ' +
+          'recreate the old behavior.',
+        false
+      );
 
-      this._stripTestSelectors = (addonOptions.environments.indexOf(app.env) !== -1);
+      this._stripTestSelectors = addonOptions.environments.indexOf(app.env) !== -1;
     } else if ('strip' in addonOptions) {
       this._stripTestSelectors = addonOptions.strip;
     } else {
@@ -27,8 +30,11 @@ module.exports = {
     }
 
     if ('patchClassicComponent' in addonOptions) {
-      ui.writeDeprecateLine('[ember-test-selectors] The `patchClassicComponent` option is obsolete. ' +
-        'You can remove it from your `ember-cli-build.js` file.', false);
+      ui.writeDeprecateLine(
+        '[ember-test-selectors] The `patchClassicComponent` option is obsolete. ' +
+          'You can remove it from your `ember-cli-build.js` file.',
+        false
+      );
     }
   },
 
@@ -65,10 +71,14 @@ module.exports = {
       if (checker.satisfies('^6.0.0-beta.1') || checker.satisfies('^7.0.0')) {
         appOrParent.options.babel6 = appOrParent.options.babel6 || {};
         appOrParent.options.babel6.plugins = appOrParent.options.babel6.plugins || [];
-        appOrParent.options.babel6.plugins.push(require.resolve('./strip-data-test-properties-plugin6'));
+        appOrParent.options.babel6.plugins.push(
+          require.resolve('./strip-data-test-properties-plugin6')
+        );
       } else {
-        this.ui.writeWarnLine('ember-test-selectors: You are using an unsupported ember-cli-babel version. data-test ' +
-          'properties are not automatically stripped from your JS code.');
+        this.ui.writeWarnLine(
+          'ember-test-selectors: You are using an unsupported ember-cli-babel version. data-test ' +
+            'properties are not automatically stripped from your JS code.'
+        );
       }
 
       this._registeredWithBabel = true;
@@ -88,7 +98,11 @@ module.exports = {
     // remove the unit tests if we're testing ourself and are in strip mode.
     // we do this because these tests depend on the "addon" and "app" folders being available,
     // which is not the case if they are stripped out of the build.
-    if (type === 'test' && this._stripTestSelectors && this.project.name() === 'ember-test-selectors') {
+    if (
+      type === 'test' &&
+      this._stripTestSelectors &&
+      this.project.name() === 'ember-test-selectors'
+    ) {
       tree = require('broccoli-stew').rm(tree, 'dummy/tests/unit/**/*.js');
     }
     return tree;

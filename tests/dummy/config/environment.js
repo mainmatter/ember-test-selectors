@@ -2,7 +2,7 @@
 
 /* eslint-env node */
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'dummy',
     environment,
@@ -15,8 +15,8 @@ module.exports = function(environment) {
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
+        Date: false,
+      },
     },
 
     APP: {
@@ -24,7 +24,7 @@ module.exports = function(environment) {
       // when it is created
     },
 
-    stripTestSelectors: process.env['STRIP_TEST_SELECTORS']
+    stripTestSelectors: process.env['STRIP_TEST_SELECTORS'],
   };
 
   if (environment === 'development') {

@@ -3,7 +3,7 @@ import Component from '@ember/component';
 const component = Component.extend();
 
 component.reopenClass({
-  positionalParams: 'params'
+  positionalParams: 'params',
 });
 
 export default component;

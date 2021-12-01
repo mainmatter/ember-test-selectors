@@ -1,9 +1,6 @@
 module.exports = {
   root: true,
-  extends: [
-    'simplabs',
-    'simplabs/plugins/ember',
-  ],
+  extends: ['simplabs', 'simplabs/plugins/ember', 'plugin:prettier/recommended'],
   rules: {
     'ember/avoid-leaking-state-in-components': 'off',
     'ember/local-modules': 'off',
@@ -21,12 +18,7 @@ module.exports = {
         'config/**/*.js',
         'tests/dummy/config/**/*.js',
       ],
-      excludedFiles: [
-        'addon/**',
-        'addon-test-support/**',
-        'app/**',
-        'tests/dummy/app/**',
-      ],
+      excludedFiles: ['addon/**', 'addon-test-support/**', 'app/**', 'tests/dummy/app/**'],
       parserOptions: {
         sourceType: 'script',
         ecmaVersion: 2015,
@@ -38,12 +30,10 @@ module.exports = {
     },
     // node test files
     {
-      files: [
-        'node-tests/*.js',
-      ],
+      files: ['node-tests/*.js'],
       parserOptions: {
         sourceType: 'script',
-        ecmaVersion: 2015
+        ecmaVersion: 2015,
       },
       env: {
         browser: false,

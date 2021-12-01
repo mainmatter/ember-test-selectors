@@ -6,7 +6,7 @@ let babel7 = require('@babel/core');
 let StripDataTestPropertiesPlugin6 = require('../strip-data-test-properties-plugin6');
 
 function testFixture(name) {
-  it(`fixture: ${name}`, function() {
+  it(`fixture: ${name}`, function () {
     let fixturePath = `${__dirname}/fixtures/${name}/fixture.js`;
     let expectedPath = `${__dirname}/fixtures/${name}/expected7.js`;
 
@@ -20,7 +20,6 @@ function testFixture(name) {
   });
 }
 
-describe('StripDataTestProperties plugin', function() {
+describe('StripDataTestProperties plugin', function () {
   testFixture('default');
 });
-

@@ -18,11 +18,11 @@ function StripDataTestPropertiesPlugin() {
   };
 }
 
-StripDataTestPropertiesPlugin.baseDir = function() {
+StripDataTestPropertiesPlugin.baseDir = function () {
   return __dirname;
 };
 
-StripDataTestPropertiesPlugin.cacheKey = function() {
+StripDataTestPropertiesPlugin.cacheKey = function () {
   return 'ember-test-selectors.strip-data-test-properties';
 };
 
