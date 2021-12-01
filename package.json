@@ -34,6 +34,7 @@
     "@ember/optional-features": "2.0.0",
     "@ember/test-helpers": "2.6.0",
     "broccoli-stew": "3.0.0",
+    "ember-auto-import": "2.2.4",
     "ember-cli": "3.28.4",
     "ember-cli-dependency-checker": "3.2.0",
     "ember-cli-htmlbars": "6.0.0",
@@ -56,7 +57,8 @@
     "qunit": "2.17.2",
     "qunit-dom": "2.0.0",
     "release-it": "14.11.7",
-    "release-it-lerna-changelog": "4.0.1"
+    "release-it-lerna-changelog": "4.0.1",
+    "webpack": "5.64.4"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16.*"
