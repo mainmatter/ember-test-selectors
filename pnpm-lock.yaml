@@ -23,7 +23,7 @@ specifiers:
   ember-try: 2.0.0
   eslint: 8.2.0
   eslint-config-simplabs: 0.4.0
-  eslint-plugin-ember: 10.5.7
+  eslint-plugin-ember: 10.5.8
   eslint-plugin-qunit: 7.1.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
@@ -59,7 +59,7 @@ devDependencies:
   ember-try: 2.0.0
   eslint: 8.2.0
   eslint-config-simplabs: 0.4.0_eslint@8.2.0
-  eslint-plugin-ember: 10.5.7_eslint@8.2.0
+  eslint-plugin-ember: 10.5.8_eslint@8.2.0
   eslint-plugin-qunit: 7.1.0_eslint@8.2.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
@@ -5180,8 +5180,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/10.5.7_eslint@8.2.0:
-    resolution: {integrity: sha512-PTnZxbexrvRgEUtiuTaRjcFIIezzNsaJLUkvOoKhmxXTZnWgSPV36PGv5ml0BOallWYAOocefjTgv9SWvlmEdw==}
+  /eslint-plugin-ember/10.5.8_eslint@8.2.0:
+    resolution: {integrity: sha512-d21mJ+F+htgi6HhrjwbOfllJojF4ZWGruW13HkBoGS2SaHqKUyvIH/8j3EjSxlsGFiNfhTEUWkNaUSLJxgbtWg==}
     engines: {node: 10.* || 12.* || >= 14}
     peerDependencies:
       eslint: '>= 6'
