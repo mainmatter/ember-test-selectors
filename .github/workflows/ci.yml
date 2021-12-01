@@ -57,15 +57,25 @@ jobs:
       - run: pnpm run test:node
 
   ember-try-scenarios:
-    name: Ember Tests (${{ matrix.test-suite }})
+    name: Ember Tests (${{ matrix.try-scenario }})
+
+    needs: [test]
 
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        test-suite:
-          - test:strip
-          - test:keep
+        try-scenario:
+          - ember-lts-3.8
+          - ember-lts-3.12
+          - ember-lts-3.16
+          - ember-lts-3.20
+          - ember-lts-3.24
+          - ember-lts-3.28
+          - ember-release
+          - ember-beta
+          - ember-canary
 
     steps:
       - uses: actions/checkout@v2
@@ -80,6 +90,6 @@ jobs:
           cache: pnpm
 
       - run: pnpm install
-      - run: pnpm run test:all -- --skip-cleanup
-        env:
-          TEST_SUITE: ${{ matrix.test-suite }}
+      - run: pnpm ember try:one ${{ matrix.try-scenario }} --skip-cleanup --- echo "${{ matrix.try-scenario }} installed"
+      - run: pnpm test:keep
+      - run: pnpm test:strip
