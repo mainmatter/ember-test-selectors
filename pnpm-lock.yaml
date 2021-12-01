@@ -18,7 +18,7 @@ specifiers:
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 5.1.5
   ember-resolver: 8.0.3
-  ember-source: 3.28.6
+  ember-source: 3.28.7
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
   eslint: 8.2.0
@@ -54,7 +54,7 @@ devDependencies:
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 5.1.5_71cf3139f132abb8fb8e124dd974b045
   ember-resolver: 8.0.3_@babel+core@7.16.0
-  ember-source: 3.28.6_@babel+core@7.16.0
+  ember-source: 3.28.7_@babel+core@7.16.0
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
   eslint: 8.2.0
@@ -4907,8 +4907,8 @@ packages:
       node-fetch: 2.6.6
     dev: true
 
-  /ember-source/3.28.6_@babel+core@7.16.0:
-    resolution: {integrity: sha512-CW92R8qa6x6fedJcIl71QvR8vj1c4f0I5LgAKB5eXoFhdDXD+peRtPPuc1i+C+1/ojvaWfDO3RpFcxkiXqvSQA==}
+  /ember-source/3.28.7_@babel+core@7.16.0:
+    resolution: {integrity: sha512-N+whv43SXHiTl93z33LULaxe24jAJGq7IORVBBevGZ3N4mDxe5OpH3jiNfr4HT48Xp8OLxa/cOH73NkEoQAS4w==}
     engines: {node: 10.* || >= 12.*}
     dependencies:
       '@babel/helper-module-imports': 7.16.0
