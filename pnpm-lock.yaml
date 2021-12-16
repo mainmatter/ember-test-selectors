@@ -8,7 +8,7 @@ specifiers:
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
   ember-auto-import: 2.2.4
-  ember-cli: 3.28.4
+  ember-cli: 4.0.0
   ember-cli-babel: ^7.26.4
   ember-cli-dependency-checker: 3.2.0
   ember-cli-htmlbars: 6.0.1
@@ -50,7 +50,7 @@ devDependencies:
   '@embroider/test-setup': 0.48.1
   broccoli-stew: 3.0.0
   ember-auto-import: 2.2.4_webpack@5.65.0
-  ember-cli: 3.28.4
+  ember-cli: 4.0.0
   ember-cli-dependency-checker: 3.2.0
   ember-cli-htmlbars: 6.0.1
   ember-cli-inject-live-reload: 2.1.0
@@ -4729,8 +4729,8 @@ packages:
       semver: 7.3.5
       silent-error: 1.1.1
 
-  /ember-cli/3.28.4:
-    resolution: {integrity: sha512-bRQpZqx1YctDNR7gb5CXfXYkZtieMh4F6v6bZtu+Da8jWTKoGizG1LXsG/Bhs96USPjlZZsErkSBo6qiGjJlcA==}
+  /ember-cli/4.0.0:
+    resolution: {integrity: sha512-v0dGVrm9YEwP6CQs4dEs2u2GHhBslljoU68IL1g3xBjzM425qoE+Zru2uGN8BgtkJVx8RCp1yGzOjHiMwlaepA==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -11655,7 +11655,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /widest-line/3.1.0:
