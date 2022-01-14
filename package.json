@@ -33,7 +33,7 @@
     "@babel/core": "7.16.7",
     "@ember/optional-features": "2.0.0",
     "@ember/test-helpers": "2.6.0",
-    "@embroider/test-setup": "0.50.1",
+    "@embroider/test-setup": "0.50.2",
     "broccoli-stew": "3.0.0",
     "ember-auto-import": "2.2.4",
     "ember-cli": "4.1.0",
