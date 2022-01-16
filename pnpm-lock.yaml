@@ -34,7 +34,7 @@ specifiers:
   prettier: 2.5.1
   qunit: 2.17.2
   qunit-dom: 2.0.0
-  release-it: 14.12.2
+  release-it: 14.12.3
   release-it-lerna-changelog: 4.0.1
   webpack: 5.66.0
 
@@ -74,8 +74,8 @@ devDependencies:
   prettier: 2.5.1
   qunit: 2.17.2
   qunit-dom: 2.0.0
-  release-it: 14.12.2
-  release-it-lerna-changelog: 4.0.1_release-it@14.12.2
+  release-it: 14.12.3
+  release-it-lerna-changelog: 4.0.1_release-it@14.12.3
   webpack: 5.66.0
 
 packages:
@@ -9663,7 +9663,7 @@ packages:
     dependencies:
       jsesc: 0.5.0
 
-  /release-it-lerna-changelog/4.0.1_release-it@14.12.2:
+  /release-it-lerna-changelog/4.0.1_release-it@14.12.3:
     resolution: {integrity: sha512-PBE72pVfWLyUp3JN/qyAglhKIiDOPO2zdupT8JQrJmW+wi3ZERtr0IFSGNmczFcMnMnTFnzpuJGpTPAoqQToVg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -9672,7 +9672,7 @@ packages:
       execa: 5.1.1
       lerna-changelog: 2.2.0
       mdast-util-from-markdown: 1.2.0
-      release-it: 14.12.2
+      release-it: 14.12.3
       tmp: 0.2.1
       validate-peer-dependencies: 2.0.0
       which: 2.0.2
@@ -9680,8 +9680,8 @@ packages:
       - supports-color
     dev: true
 
-  /release-it/14.12.2:
-    resolution: {integrity: sha512-pBoW0R92X2RxxU+gGygmHngTlOsZ8/wF4seiBWBGd3/r0NdKVHYgU1Na8xERVYs9qU0poLITf2BiXfut34nsQw==}
+  /release-it/14.12.3:
+    resolution: {integrity: sha512-qek7ml9WaxpXSjLpU4UGCF9nWpDgOODL1gZTuydafs1HdQPAeYOd2od8I8lUL4NlEKW2TirDhH4aFTVIpP3/cQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -9708,7 +9708,7 @@ packages:
       os-name: 4.0.1
       parse-json: 5.2.0
       semver: 7.3.5
-      shelljs: 0.8.4
+      shelljs: 0.8.5
       update-notifier: 5.1.0
       url-join: 4.0.1
       uuid: 8.3.2
@@ -10170,8 +10170,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shelljs/0.8.4:
-    resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
+  /shelljs/0.8.5:
+    resolution: {integrity: sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==}
     engines: {node: '>=4'}
     hasBin: true
     dependencies:
