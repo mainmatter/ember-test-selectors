@@ -35,7 +35,7 @@
     "@ember/test-helpers": "2.6.0",
     "@embroider/test-setup": "1.0.0",
     "broccoli-stew": "3.0.0",
-    "ember-auto-import": "2.3.0",
+    "ember-auto-import": "2.4.0",
     "ember-cli": "4.1.0",
     "ember-cli-dependency-checker": "3.2.0",
     "ember-cli-htmlbars": "6.0.1",
