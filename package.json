@@ -62,7 +62,7 @@
     "qunit-dom": "2.0.0",
     "release-it": "14.12.3",
     "release-it-lerna-changelog": "4.0.1",
-    "webpack": "5.66.0"
+    "webpack": "5.67.0"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16.*"
