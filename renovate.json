@@ -8,6 +8,14 @@
     ":maintainLockFilesWeekly",
     ":semanticCommitsDisabled"
   ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^.github/workflows/[^\\.]+\\.ya?ml$"],
+      "matchStrings": ["PNPM_VERSION:\\s*(?<currentValue>.*?)\n"],
+      "depNameTemplate": "pnpm",
+      "datasourceTemplate": "npm"
+    }
+  ],
   "packageRules": [
     {
       "matchCurrentVersion": ">= 1.0.0",
