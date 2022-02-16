@@ -32,7 +32,7 @@ specifiers:
   loader.js: 4.7.0
   mocha: 9.2.0
   prettier: 2.5.1
-  qunit: 2.17.2
+  qunit: 2.18.0
   qunit-dom: 2.0.0
   release-it: 14.12.4
   release-it-lerna-changelog: 4.0.1
@@ -57,7 +57,7 @@ devDependencies:
   ember-disable-prototype-extensions: 1.1.3
   ember-load-initializers: 2.1.2_@babel+core@7.17.4
   ember-maybe-import-regenerator: 1.0.0
-  ember-qunit: 5.1.5_71cf3139f132abb8fb8e124dd974b045
+  ember-qunit: 5.1.5_2ad60cfc94fde9575aa80153e3125e3b
   ember-resolver: 8.0.3_@babel+core@7.17.4
   ember-source: 4.2.0_f5bfe0f6da95a4c8764b0d9191d88a0a
   ember-source-channel-url: 3.0.0
@@ -72,7 +72,7 @@ devDependencies:
   loader.js: 4.7.0
   mocha: 9.2.0
   prettier: 2.5.1
-  qunit: 2.17.2
+  qunit: 2.18.0
   qunit-dom: 2.0.0
   release-it: 14.12.4
   release-it-lerna-changelog: 4.0.1_release-it@14.12.4
@@ -4733,7 +4733,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit/5.1.5_71cf3139f132abb8fb8e124dd974b045:
+  /ember-qunit/5.1.5_2ad60cfc94fde9575aa80153e3125e3b:
     resolution: {integrity: sha512-2cFA4oMygh43RtVcMaBrr086Tpdhgbn3fVZ2awLkzF/rnSN0D0PSRpd7hAD7OdBPerC/ZYRwzVyGXLoW/Zes4A==}
     engines: {node: 10.* || 12.* || >= 14.*}
     peerDependencies:
@@ -4747,7 +4747,7 @@ packages:
       ember-auto-import: 1.12.1
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
-      qunit: 2.17.2
+      qunit: 2.18.0
       resolve-package-path: 3.1.0
       silent-error: 1.1.1
       validate-peer-dependencies: 1.2.0
@@ -8373,8 +8373,8 @@ packages:
   /node-releases/2.0.2:
     resolution: {integrity: sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==}
 
-  /node-watch/0.7.2:
-    resolution: {integrity: sha512-g53VjSARRv1JdST0LZRIg8RiuLr1TaBbVPsVvxh0/0Ymvi0xYUjDuoqQQAWtHJQUXhiShowPT/aXKNeHBcyQsw==}
+  /node-watch/0.7.3:
+    resolution: {integrity: sha512-3l4E8uMPY1HdMMryPRUAl+oIHtXtyiTlIiESNSVSNxcPfzAFzeTbXFQkZfAwBbo0B1qMSG8nUABx+Gd+YrbKrQ==}
     engines: {node: '>=6'}
     dev: true
 
@@ -9203,13 +9203,13 @@ packages:
       - supports-color
     dev: true
 
-  /qunit/2.17.2:
-    resolution: {integrity: sha512-17isVvuOmALzsPjiV7wFg/6O5vJYXBrQZPwocfQSSh0I/rXvfX7bKMFJ4GMVW3U4P8r2mBeUy8EAngti4QD2Vw==}
+  /qunit/2.18.0:
+    resolution: {integrity: sha512-Xw/zUm5t1JY8SNErki/qtw4fCuaaOZL+bPloZU+0kto+fO8j1JV9MQWqXO4kATfhEyJohlsKZpfg1HF7GOkpXw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       commander: 7.2.0
-      node-watch: 0.7.2
+      node-watch: 0.7.3
       tiny-glob: 0.2.9
     dev: true
 
