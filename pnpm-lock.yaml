@@ -34,7 +34,7 @@ specifiers:
   prettier: 2.5.1
   qunit: 2.18.0
   qunit-dom: 2.0.0
-  release-it: 14.12.4
+  release-it: 14.12.5
   release-it-lerna-changelog: 4.0.1
   webpack: 5.69.1
 
@@ -74,8 +74,8 @@ devDependencies:
   prettier: 2.5.1
   qunit: 2.18.0
   qunit-dom: 2.0.0
-  release-it: 14.12.4
-  release-it-lerna-changelog: 4.0.1_release-it@14.12.4
+  release-it: 14.12.5
+  release-it-lerna-changelog: 4.0.1_release-it@14.12.5
   webpack: 5.69.1
 
 packages:
@@ -9406,7 +9406,7 @@ packages:
     dependencies:
       jsesc: 0.5.0
 
-  /release-it-lerna-changelog/4.0.1_release-it@14.12.4:
+  /release-it-lerna-changelog/4.0.1_release-it@14.12.5:
     resolution: {integrity: sha512-PBE72pVfWLyUp3JN/qyAglhKIiDOPO2zdupT8JQrJmW+wi3ZERtr0IFSGNmczFcMnMnTFnzpuJGpTPAoqQToVg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -9415,7 +9415,7 @@ packages:
       execa: 5.1.1
       lerna-changelog: 2.2.0
       mdast-util-from-markdown: 1.2.0
-      release-it: 14.12.4
+      release-it: 14.12.5
       tmp: 0.2.1
       validate-peer-dependencies: 2.0.0
       which: 2.0.2
@@ -9423,8 +9423,8 @@ packages:
       - supports-color
     dev: true
 
-  /release-it/14.12.4:
-    resolution: {integrity: sha512-lqf9PMsj7ycCqFHGag8Uv7cE1hNsKa+yKUMe+Fkh9fdOfxu2F01On+YUefRCP0DuQthmr/WyLCYdrjThMEkWFQ==}
+  /release-it/14.12.5:
+    resolution: {integrity: sha512-mGFbbX8eEKMOhfjq5mZAgGppT8CME1T+vj6xA5tAPYSCuPpcNEDjqiG1tJfPy/XImZI4uS3U6pNP5KyDpy9etg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -11320,7 +11320,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /widest-line/3.1.0:
@@ -11482,7 +11482,7 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.3
       y18n: 5.0.8
-      yargs-parser: 20.2.4
+      yargs-parser: 20.2.9
     dev: true
 
   /yargs/17.3.1:
