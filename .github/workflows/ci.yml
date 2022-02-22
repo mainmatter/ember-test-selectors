@@ -10,7 +10,7 @@ on:
     - cron: '0 3 * * *' # daily, at 3am
 
 env:
-  PNPM_VERSION: 6.31.0
+  PNPM_VERSION: 6.32.0
 
 jobs:
   lint:
