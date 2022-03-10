@@ -1,12 +1,12 @@
 {
   "extends": [
     "config:js-lib",
-    ":automergePatch",
     ":automergeLinters",
     ":automergeTesters",
     ":dependencyDashboard",
     ":maintainLockFilesWeekly",
-    ":semanticCommitsDisabled"
+    ":semanticCommitsDisabled",
+    "github>Turbo87/renovate-config:automergeCaretConstraint"
   ],
   "regexManagers": [
     {
@@ -17,13 +17,6 @@
     }
   ],
   "packageRules": [
-    {
-      "matchCurrentVersion": ">= 1.0.0",
-      "updateTypes": [
-        "minor"
-      ],
-      "automerge": true
-    },
     {
       "packageNames": [
         "ember-cli",
