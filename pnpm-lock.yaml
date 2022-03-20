@@ -34,7 +34,7 @@ specifiers:
   prettier: 2.6.0
   qunit: 2.18.0
   qunit-dom: 2.0.0
-  release-it: 14.13.0
+  release-it: 14.13.1
   release-it-lerna-changelog: 4.0.1
   webpack: 5.70.0
 
@@ -74,8 +74,8 @@ devDependencies:
   prettier: 2.6.0
   qunit: 2.18.0
   qunit-dom: 2.0.0
-  release-it: 14.13.0
-  release-it-lerna-changelog: 4.0.1_release-it@14.13.0
+  release-it: 14.13.1
+  release-it-lerna-changelog: 4.0.1_release-it@14.13.1
   webpack: 5.70.0
 
 packages:
@@ -9420,7 +9420,7 @@ packages:
     dependencies:
       jsesc: 0.5.0
 
-  /release-it-lerna-changelog/4.0.1_release-it@14.13.0:
+  /release-it-lerna-changelog/4.0.1_release-it@14.13.1:
     resolution: {integrity: sha512-PBE72pVfWLyUp3JN/qyAglhKIiDOPO2zdupT8JQrJmW+wi3ZERtr0IFSGNmczFcMnMnTFnzpuJGpTPAoqQToVg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -9429,7 +9429,7 @@ packages:
       execa: 5.1.1
       lerna-changelog: 2.2.0
       mdast-util-from-markdown: 1.2.0
-      release-it: 14.13.0
+      release-it: 14.13.1
       tmp: 0.2.1
       validate-peer-dependencies: 2.0.0
       which: 2.0.2
@@ -9437,8 +9437,8 @@ packages:
       - supports-color
     dev: true
 
-  /release-it/14.13.0:
-    resolution: {integrity: sha512-tiVocA1QcAC0fgMBSIq8IBfRVmGCvLTkG5Mxdl2WmH91tLuzFmSsDUgpTJGhIBo+ly+oe+vsr7EZ+rkCDNuZoQ==}
+  /release-it/14.13.1:
+    resolution: {integrity: sha512-mrng5bqZDFMr/7oCH3kuflwjKpKki4dUp6yYGxs20scYCvvd8rHAI5pdQOJHwI5BKHAC/pad0UjAEycMWQnEIw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
