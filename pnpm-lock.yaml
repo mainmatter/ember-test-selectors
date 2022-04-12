@@ -10,7 +10,7 @@ specifiers:
   ember-auto-import: 2.4.1
   ember-cli: 4.3.0
   ember-cli-babel: ^7.26.4
-  ember-cli-dependency-checker: 3.3.0
+  ember-cli-dependency-checker: 3.3.1
   ember-cli-htmlbars: 6.0.1
   ember-cli-inject-live-reload: 2.1.0
   ember-cli-version-checker: ^5.1.2
@@ -51,7 +51,7 @@ devDependencies:
   broccoli-stew: 3.0.0
   ember-auto-import: 2.4.1_webpack@5.72.0
   ember-cli: 4.3.0
-  ember-cli-dependency-checker: 3.3.0_ember-cli@4.3.0
+  ember-cli-dependency-checker: 3.3.1_ember-cli@4.3.0
   ember-cli-htmlbars: 6.0.1
   ember-cli-inject-live-reload: 2.1.0
   ember-disable-prototype-extensions: 1.1.3
@@ -4348,11 +4348,11 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /ember-cli-dependency-checker/3.3.0_ember-cli@4.3.0:
-    resolution: {integrity: sha512-eXjzvjTGP3u+/gUl27tDf3YVTUw72KBZr+eVk7xrupRpwaziyP6cBxvJ01Fp0IrTm+92VInYzRJm9ucAZ3Hvdw==}
+  /ember-cli-dependency-checker/3.3.1_ember-cli@4.3.0:
+    resolution: {integrity: sha512-Tg6OeijjXNKWkDm6057Tr0N9j9Vlz/ITewXWpn1A/+Wbt3EowBx5ZKfvoupqz05EznKgL1B/ecG0t+JN7Qm6MA==}
     engines: {node: '>= 6'}
     peerDependencies:
-      ember-cli: ~3.2.0
+      ember-cli: ^3.2.0 || ^4.0.0
     dependencies:
       chalk: 2.4.2
       ember-cli: 4.3.0
