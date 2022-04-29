@@ -32,7 +32,7 @@ specifiers:
   loader.js: 4.7.0
   mocha: 9.2.2
   prettier: 2.6.2
-  qunit: 2.18.2
+  qunit: 2.19.0
   qunit-dom: 2.0.0
   release-it: 14.14.2
   release-it-lerna-changelog: 4.0.1
@@ -57,7 +57,7 @@ devDependencies:
   ember-disable-prototype-extensions: 1.1.3
   ember-load-initializers: 2.1.2_@babel+core@7.17.9
   ember-maybe-import-regenerator: 1.0.0
-  ember-qunit: 5.1.5_68c27f1128862f3e803be47c98c5e80a
+  ember-qunit: 5.1.5_1172946c891f77195136d44b0267c106
   ember-resolver: 8.0.3_@babel+core@7.17.9
   ember-source: 4.3.0_acba72ea4bf9d339cdfcd8f55cdb7006
   ember-source-channel-url: 3.0.0
@@ -72,7 +72,7 @@ devDependencies:
   loader.js: 4.7.0
   mocha: 9.2.2
   prettier: 2.6.2
-  qunit: 2.18.2
+  qunit: 2.19.0
   qunit-dom: 2.0.0
   release-it: 14.14.2
   release-it-lerna-changelog: 4.0.1_release-it@14.14.2
@@ -4667,7 +4667,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit/5.1.5_68c27f1128862f3e803be47c98c5e80a:
+  /ember-qunit/5.1.5_1172946c891f77195136d44b0267c106:
     resolution: {integrity: sha512-2cFA4oMygh43RtVcMaBrr086Tpdhgbn3fVZ2awLkzF/rnSN0D0PSRpd7hAD7OdBPerC/ZYRwzVyGXLoW/Zes4A==}
     engines: {node: 10.* || 12.* || >= 14.*}
     peerDependencies:
@@ -4681,7 +4681,7 @@ packages:
       ember-auto-import: 1.12.1
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
-      qunit: 2.18.2
+      qunit: 2.19.0
       resolve-package-path: 3.1.0
       silent-error: 1.1.1
       validate-peer-dependencies: 1.2.0
@@ -9174,8 +9174,8 @@ packages:
       - supports-color
     dev: true
 
-  /qunit/2.18.2:
-    resolution: {integrity: sha512-Ux+x9pIU38/F+r3jOl35QzGHPPupMifUvhczCqHgzYWX76fCjPg6VqM84ox1D57fhAXHtpS4Jl91EV8gDoCHPg==}
+  /qunit/2.19.0:
+    resolution: {integrity: sha512-rC7U6j4EQkYedaccl9rYEMoHisvzM20XwXgy437Q0Apqav16iZQXSb/nglnFqI91J8P5ANXaljEY6VIT+LaSkg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
