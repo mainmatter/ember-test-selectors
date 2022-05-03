@@ -19,7 +19,7 @@ specifiers:
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 5.1.5
   ember-resolver: 8.0.3
-  ember-source: 4.3.0
+  ember-source: 4.4.0
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
   eslint: 8.14.0
@@ -59,7 +59,7 @@ devDependencies:
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 5.1.5_t3jjcejb4cr2zippavidkjlupq
   ember-resolver: 8.0.3_@babel+core@7.17.10
-  ember-source: 4.3.0_rb5fcebzp6kx3hqg3ucus54t3m
+  ember-source: 4.4.0_rb5fcebzp6kx3hqg3ucus54t3m
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
   eslint: 8.14.0
@@ -4506,6 +4506,15 @@ packages:
       - supports-color
     dev: true
 
+  /ember-cli-typescript-blueprint-polyfill/0.1.0:
+    resolution: {integrity: sha512-g0weUTOnHmPGqVZzkQTl3Nbk9fzEdFkEXydCs5mT1qBjXh8eQ6VlmjjGD5/998UXKuA0pLSCVVMbSp/linLzGA==}
+    dependencies:
+      chalk: 4.1.2
+      remove-types: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /ember-cli-typescript/2.0.2_@babel+core@7.17.10:
     resolution: {integrity: sha512-7I5azCTxOgRDN8aSSnJZIKSqr+MGnT+jLTUbBYqF8wu6ojs2DUnTePxUcQMcvNh3Q3B1ySv7Q/uZFSjdU9gSjA==}
     engines: {node: 6.* || 8.* || >= 10.*}
@@ -4778,8 +4787,8 @@ packages:
       - encoding
     dev: true
 
-  /ember-source/4.3.0_rb5fcebzp6kx3hqg3ucus54t3m:
-    resolution: {integrity: sha512-WyAWRM1oOXBbj0mTeoIngzGDF41XGrlpJO6nQrcFwff6GN6ERRyeIyIhjU2yLRXWYIC3y6IrzRQUjS1PqqxZVw==}
+  /ember-source/4.4.0_rb5fcebzp6kx3hqg3ucus54t3m:
+    resolution: {integrity: sha512-o4jJko/2IRfGsyfje51nNYMQj+OusJph4CIGF+Yk9pmvoS0TbzKHKWlnFiIygTcnUiMHkG18FL9Z0LSd/Kgl5w==}
     engines: {node: '>= 12.*'}
     dependencies:
       '@babel/helper-module-imports': 7.16.7
@@ -4801,6 +4810,7 @@ packages:
       ember-cli-normalize-entity-name: 1.0.0
       ember-cli-path-utils: 1.0.0
       ember-cli-string-utils: 1.1.0
+      ember-cli-typescript-blueprint-polyfill: 0.1.0
       ember-cli-version-checker: 5.1.2
       ember-router-generator: 2.0.0
       inflection: 1.13.2
@@ -11175,7 +11185,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.3.7
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
