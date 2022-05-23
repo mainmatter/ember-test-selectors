@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': 7.18.0
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.7.0
+  '@ember/test-helpers': 2.8.1
   '@embroider/test-setup': 1.7.0
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
@@ -46,7 +46,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.18.0
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.7.0_@babel+core@7.18.0
+  '@ember/test-helpers': 2.8.1_gzdebbph7xeb4hsbjc7d4ys26e
   '@embroider/test-setup': 1.7.0
   broccoli-stew: 3.0.0
   ember-auto-import: 2.4.2_webpack@5.72.1
@@ -57,7 +57,7 @@ devDependencies:
   ember-disable-prototype-extensions: 1.1.3
   ember-load-initializers: 2.1.2_@babel+core@7.18.0
   ember-maybe-import-regenerator: 1.0.0
-  ember-qunit: 5.1.5_t3jjcejb4cr2zippavidkjlupq
+  ember-qunit: 5.1.5_m2vpijm5kklvqmlfibufmotnbi
   ember-resolver: 8.0.3_@babel+core@7.18.0
   ember-source: 4.4.0_qqaml4ljchhh37dxp4aoesgrby
   ember-source-channel-url: 3.0.0
@@ -1241,16 +1241,21 @@ packages:
       - supports-color
     dev: true
 
-  /@ember/test-helpers/2.7.0_@babel+core@7.18.0:
-    resolution: {integrity: sha512-eWFtw5+sbci1Fw+E+HoyaMxY126LvK7jul6i8tad48zlWoxrOalbhJhz1mKqIo4daHbqIZWuFgQhOib4QfTKCQ==}
+  /@ember/test-helpers/2.8.1_gzdebbph7xeb4hsbjc7d4ys26e:
+    resolution: {integrity: sha512-jbsYwWyAdhL/pdPu7Gb3SG1gvIXY70FWMtC/Us0Kmvk82Y+5YUQ1SOC0io75qmOGYQmH7eQrd/bquEVd+4XtdQ==}
     engines: {node: 10.* || 12.* || 14.* || 15.* || >= 16.*}
+    peerDependencies:
+      ember-source: '>=3.8.0'
     dependencies:
       '@ember/test-waiters': 3.0.2
+      '@embroider/macros': 1.6.0
+      '@embroider/util': 1.7.0_ember-source@4.4.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 5.7.2
       ember-destroyable-polyfill: 2.0.3_@babel+core@7.18.0
+      ember-source: 4.4.0_qqaml4ljchhh37dxp4aoesgrby
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
@@ -1284,8 +1289,38 @@ packages:
       - supports-color
     dev: true
 
+  /@embroider/macros/1.7.0:
+    resolution: {integrity: sha512-meS/AVU/j+PVbnhupSd3Oy+vdM3yBbnALgPt7wlgKP3l6G3ObJTtPiKK2ngRRL7sg+TY0BFE2KnR8Bk1EtCqYQ==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      '@embroider/shared-internals': 1.7.0
+      assert-never: 1.2.1
+      babel-import-util: 1.2.2
+      ember-cli-babel: 7.26.11
+      find-up: 5.0.0
+      lodash: 4.17.21
+      resolve: 1.22.0
+      semver: 7.3.7
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@embroider/shared-internals/1.6.0:
     resolution: {integrity: sha512-es7+pV2S9+tgX5T4losppheXfa+xWtKD6x0gq7mxqA4DIdE14mORNeSWM8/Fu9f/t0tJnPqttddbgnDYw+SvrA==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      babel-import-util: 1.2.2
+      ember-rfc176-data: 0.3.17
+      fs-extra: 9.1.0
+      js-string-escape: 1.0.1
+      lodash: 4.17.21
+      resolve-package-path: 4.0.3
+      semver: 7.3.7
+      typescript-memoize: 1.1.0
+    dev: true
+
+  /@embroider/shared-internals/1.7.0:
+    resolution: {integrity: sha512-DLE/QH27VHbLFqLeqLaVY3N6QnRgftYxxa5poYvLpdG/o0sbYuyUxrI7nxLOtXRR9RqtdrssV+Y/w5f/TE0yTQ==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       babel-import-util: 1.2.2
@@ -1304,6 +1339,20 @@ packages:
     dependencies:
       lodash: 4.17.21
       resolve: 1.22.0
+    dev: true
+
+  /@embroider/util/1.7.0_ember-source@4.4.0:
+    resolution: {integrity: sha512-jl7odKFu77mdMr+DzVCWg4YIYiQs+p7V3avb6L+PKySX4WcZgzAheh7uusXWXBAo9i7b0X500yRy47zUWGTnIw==}
+    engines: {node: 12.* || 14.* || >= 16}
+    peerDependencies:
+      ember-source: '*'
+    dependencies:
+      '@embroider/macros': 1.7.0
+      broccoli-funnel: 3.0.8
+      ember-cli-babel: 7.26.11
+      ember-source: 4.4.0_qqaml4ljchhh37dxp4aoesgrby
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /@eslint/eslintrc/1.3.0:
@@ -4550,7 +4599,7 @@ packages:
       '@babel/preset-env': 7.18.0_@babel+core@7.18.0
       '@babel/traverse': 7.18.0
       '@babel/types': 7.18.0
-      '@embroider/shared-internals': 1.6.0
+      '@embroider/shared-internals': 1.7.0
       babel-core: 6.26.3
       babel-loader: 8.2.5_6sui7bpcrc7jx7yypfyfijkzxi
       babel-plugin-syntax-dynamic-import: 6.18.0
@@ -5056,14 +5105,14 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit/5.1.5_t3jjcejb4cr2zippavidkjlupq:
+  /ember-qunit/5.1.5_m2vpijm5kklvqmlfibufmotnbi:
     resolution: {integrity: sha512-2cFA4oMygh43RtVcMaBrr086Tpdhgbn3fVZ2awLkzF/rnSN0D0PSRpd7hAD7OdBPerC/ZYRwzVyGXLoW/Zes4A==}
     engines: {node: 10.* || 12.* || >= 14.*}
     peerDependencies:
       '@ember/test-helpers': ^2.4.0
       qunit: ^2.13.0
     dependencies:
-      '@ember/test-helpers': 2.7.0_@babel+core@7.18.0
+      '@ember/test-helpers': 2.8.1_gzdebbph7xeb4hsbjc7d4ys26e
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
