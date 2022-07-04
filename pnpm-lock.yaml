@@ -11,7 +11,7 @@ specifiers:
   ember-cli: 4.4.0
   ember-cli-babel: ^7.26.4
   ember-cli-dependency-checker: 3.3.1
-  ember-cli-htmlbars: 6.0.1
+  ember-cli-htmlbars: 6.1.0
   ember-cli-inject-live-reload: 2.1.0
   ember-cli-version-checker: ^5.1.2
   ember-disable-prototype-extensions: 1.1.3
@@ -52,7 +52,7 @@ devDependencies:
   ember-auto-import: 2.4.2_webpack@5.73.0
   ember-cli: 4.4.0
   ember-cli-dependency-checker: 3.3.1_ember-cli@4.4.0
-  ember-cli-htmlbars: 6.0.1
+  ember-cli-htmlbars: 6.1.0
   ember-cli-inject-live-reload: 2.1.0
   ember-disable-prototype-extensions: 1.1.3
   ember-load-initializers: 2.1.2_@babel+core@7.18.6
@@ -4733,8 +4733,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-cli-htmlbars/6.0.1:
-    resolution: {integrity: sha512-IDsl9uty+MXtMfp/BUTEc/Q36EmlHYj8ZdPekcoRa8hmdsigHnK4iokfaB7dJFktlf6luruei+imv7JrJrBQPQ==}
+  /ember-cli-htmlbars/6.1.0:
+    resolution: {integrity: sha512-kT+MA2JsNLk10HpxAjpB5HHtR0WCoxZEUwLsy/BBww5lXmsrf34QzmTw7SL6DabZVxs+YCb9RhU9KTmFygGxCg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@ember/edition-utils': 1.2.0
@@ -4747,10 +4747,9 @@ packages:
       fs-tree-diff: 2.0.1
       hash-for-dep: 1.5.1
       heimdalljs-logger: 0.1.10
-      json-stable-stringify: 1.0.1
+      js-string-escape: 1.0.1
       semver: 7.3.7
       silent-error: 1.1.1
-      strip-bom: 4.0.0
       walk-sync: 2.2.0
     transitivePeerDependencies:
       - supports-color
@@ -11689,7 +11688,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.3.7
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
