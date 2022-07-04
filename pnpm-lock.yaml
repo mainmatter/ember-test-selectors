@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': 7.18.6
   '@ember/optional-features': 2.0.0
   '@ember/test-helpers': 2.8.1
-  '@embroider/test-setup': 1.8.1
+  '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
   ember-auto-import: 2.4.2
@@ -47,7 +47,7 @@ devDependencies:
   '@babel/core': 7.18.6
   '@ember/optional-features': 2.0.0
   '@ember/test-helpers': 2.8.1_eygrfgvxxnxey4el5rk2i3pxri
-  '@embroider/test-setup': 1.8.1
+  '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
   ember-auto-import: 2.4.2_webpack@5.73.0
   ember-cli: 4.4.0
@@ -1305,8 +1305,8 @@ packages:
       typescript-memoize: 1.1.0
     dev: true
 
-  /@embroider/test-setup/1.8.1:
-    resolution: {integrity: sha512-pELZvAWbjuJQmCXb2olCEoHYytzVDr84H63IY0VJXK1UdEFeJN1vjjata2n+DPZanj8Le5nm/SuJlkMQQOknZA==}
+  /@embroider/test-setup/1.8.3:
+    resolution: {integrity: sha512-BCCbBG7UWkCw+cQ401Ip6LnqTRaQDeKImxR+e7Q4oP6H4EBj7p4iGR1z6fhMy4NNyXKPB6jk3bGa9bTiiNoEAw==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       lodash: 4.17.21
