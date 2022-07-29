@@ -25,7 +25,7 @@ specifiers:
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0
   eslint-config-simplabs: 0.4.0
-  eslint-plugin-ember: 11.0.3
+  eslint-plugin-ember: 11.0.4
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 7.3.1
   lerna-changelog: 2.2.0
@@ -65,7 +65,7 @@ devDependencies:
   eslint: 8.20.0
   eslint-config-prettier: 8.5.0_eslint@8.20.0
   eslint-config-simplabs: 0.4.0_eslint@8.20.0
-  eslint-plugin-ember: 11.0.3_eslint@8.20.0
+  eslint-plugin-ember: 11.0.4_eslint@8.20.0
   eslint-plugin-prettier: 4.2.1_g4fztgbwjyq2fvmcscny2sj6fy
   eslint-plugin-qunit: 7.3.1_eslint@8.20.0
   lerna-changelog: 2.2.0
@@ -5444,8 +5444,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/11.0.3_eslint@8.20.0:
-    resolution: {integrity: sha512-nXfVSHwmrYF9cix/wAr0nWSm3Y181JLrWFPyOGubXRZUyJVWdLexOfI4mDMY0jC0W6ndk3qSFVxyYEUwG+687w==}
+  /eslint-plugin-ember/11.0.4_eslint@8.20.0:
+    resolution: {integrity: sha512-zW9K9xRgt503TMHjmtGRW2OFtLimUgEEGj3Z2LHn6vVuMh0hglPKjI39Cgx/SkoZvBjxN6PB6N+M0qDBQGIlBw==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
