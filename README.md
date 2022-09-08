@@ -100,7 +100,7 @@ License
 ------------------------------------------------------------------------------
 
 ember-test-selectors is developed by and &copy;
-[simplabs GmbH](http://simplabs.com) and contributors. It is released under the
+[Mainmatter GmbH](http://mainmatter.com) and contributors. It is released under the
 [MIT License](https://github.com/simplabs/ember-simple-auth/blob/master/LICENSE).
 
 ember-test-selectors is not an official part of [Ember.js](http://emberjs.com)
