@@ -22,7 +22,7 @@ specifiers:
   ember-source: 4.7.0
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
-  eslint: 8.23.0
+  eslint: 8.23.1
   eslint-config-prettier: 8.5.0
   eslint-config-simplabs: 0.4.0
   eslint-plugin-ember: 11.0.6
@@ -62,12 +62,12 @@ devDependencies:
   ember-source: 4.7.0_z22tmofudeh3tyeifpjvwjl5ei
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
-  eslint: 8.23.0
-  eslint-config-prettier: 8.5.0_eslint@8.23.0
-  eslint-config-simplabs: 0.4.0_eslint@8.23.0
-  eslint-plugin-ember: 11.0.6_eslint@8.23.0
-  eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
-  eslint-plugin-qunit: 7.3.1_eslint@8.23.0
+  eslint: 8.23.1
+  eslint-config-prettier: 8.5.0_eslint@8.23.1
+  eslint-config-simplabs: 0.4.0_eslint@8.23.1
+  eslint-plugin-ember: 11.0.6_eslint@8.23.1
+  eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
+  eslint-plugin-qunit: 7.3.1_eslint@8.23.1
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.0.0
@@ -1331,8 +1331,8 @@ packages:
       - supports-color
     dev: true
 
-  /@eslint/eslintrc/1.3.1:
-    resolution: {integrity: sha512-OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ==}
+  /@eslint/eslintrc/1.3.2:
+    resolution: {integrity: sha512-AXYd23w1S/bv3fTs3Lz0vjiYemS08jWkI3hYyS9I1ry+0f+Yjs1wm+sU0BS8qDOPrBIkp4qHYC16I8uVtpLajQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       ajv: 6.12.6
@@ -5447,29 +5447,29 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.5.0_eslint@8.23.0:
+  /eslint-config-prettier/8.5.0_eslint@8.23.1:
     resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
-      eslint: 8.23.0
+      eslint: 8.23.1
     dev: true
 
-  /eslint-config-simplabs/0.4.0_eslint@8.23.0:
+  /eslint-config-simplabs/0.4.0_eslint@8.23.1:
     resolution: {integrity: sha512-yTjDv4+ntBi/RjegnFqssW115QqZ+NTT8y2rGMcLMJigXwmkS5htC30TatMxezZQYdxTTXZTNLuFiG3L+XT0oA==}
     peerDependencies:
       eslint: '>= 3'
     dependencies:
       ember-cli-version-checker: 1.3.1
-      eslint: 8.23.0
+      eslint: 8.23.1
       execa: 0.6.3
       fs-extra: 2.1.2
       pify: 2.3.0
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/11.0.6_eslint@8.23.0:
+  /eslint-plugin-ember/11.0.6_eslint@8.23.1:
     resolution: {integrity: sha512-iQzqn8/GdBbNv2T3YetpjEBemoH0v9e9ea8Bu6JLOX2TN+HMK2l52/QBRFgrnaxLXBjPO3iy2c3sCieYV27EvQ==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
@@ -5478,15 +5478,15 @@ packages:
       '@ember-data/rfc395-data': 0.0.4
       css-tree: 2.2.1
       ember-rfc176-data: 0.3.17
-      eslint: 8.23.0
-      eslint-utils: 3.0.0_eslint@8.23.0
+      eslint: 8.23.1
+      eslint-utils: 3.0.0_eslint@8.23.1
       estraverse: 5.3.0
       lodash.kebabcase: 4.1.1
       requireindex: 1.2.0
       snake-case: 3.0.4
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_tgumt6uwl2md3n6uqnggd6wvce:
+  /eslint-plugin-prettier/4.2.1_cabrci5exjdaojcvd6xoxgeowu:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -5497,17 +5497,17 @@ packages:
       eslint-config-prettier:
         optional: true
     dependencies:
-      eslint: 8.23.0
-      eslint-config-prettier: 8.5.0_eslint@8.23.0
+      eslint: 8.23.1
+      eslint-config-prettier: 8.5.0_eslint@8.23.1
       prettier: 2.7.1
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-qunit/7.3.1_eslint@8.23.0:
+  /eslint-plugin-qunit/7.3.1_eslint@8.23.1:
     resolution: {integrity: sha512-L1yutkLqCgr70ZmMAbBKPvUOUwhKryZ0RaJKOzw72Bmn8no3JNBL9hhbX2aTvfZqYM/wLXIT0nICZiGrV4xVJw==}
     engines: {node: 12.x || 14.x || >=16.0.0}
     dependencies:
-      eslint-utils: 3.0.0_eslint@8.23.0
+      eslint-utils: 3.0.0_eslint@8.23.1
       requireindex: 1.2.0
     transitivePeerDependencies:
       - eslint
@@ -5537,13 +5537,13 @@ packages:
       estraverse: 5.3.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.23.0:
+  /eslint-utils/3.0.0_eslint@8.23.1:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.23.0
+      eslint: 8.23.1
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -5557,12 +5557,12 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /eslint/8.23.0:
-    resolution: {integrity: sha512-pBG/XOn0MsJcKcTRLr27S5HpzQo4kLr+HjLQIyK4EiCsijDl/TB+h5uEuJU6bQ8Edvwz1XWOjpaP2qgnXGpTcA==}
+  /eslint/8.23.1:
+    resolution: {integrity: sha512-w7C1IXCc6fNqjpuYd0yPlcTKKmHlHHktRkzmBPZ+7cvNBQuiNjx0xaMTjAJGCafJhQkrFJooREv0CtrVzmHwqg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint/eslintrc': 1.3.1
+      '@eslint/eslintrc': 1.3.2
       '@humanwhocodes/config-array': 0.10.4
       '@humanwhocodes/gitignore-to-minimatch': 1.0.2
       '@humanwhocodes/module-importer': 1.0.1
@@ -5573,7 +5573,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.1
-      eslint-utils: 3.0.0_eslint@8.23.0
+      eslint-utils: 3.0.0_eslint@8.23.1
       eslint-visitor-keys: 3.3.0
       espree: 9.4.0
       esquery: 1.4.0
@@ -5581,7 +5581,6 @@ packages:
       fast-deep-equal: 3.1.3
       file-entry-cache: 6.0.1
       find-up: 5.0.0
-      functional-red-black-tree: 1.0.1
       glob-parent: 6.0.2
       globals: 13.17.0
       globby: 11.1.0
@@ -5590,6 +5589,7 @@ packages:
       import-fresh: 3.3.0
       imurmurhash: 0.1.4
       is-glob: 4.0.3
+      js-sdsl: 4.1.4
       js-yaml: 4.1.0
       json-stable-stringify-without-jsonify: 1.0.1
       levn: 0.4.1
@@ -6397,10 +6397,6 @@ packages:
       define-properties: 1.1.4
       es-abstract: 1.20.2
       functions-have-names: 1.2.3
-    dev: true
-
-  /functional-red-black-tree/1.0.1:
-    resolution: {integrity: sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==}
     dev: true
 
   /functions-have-names/1.2.3:
@@ -7622,6 +7618,10 @@ packages:
       '@types/node': 18.7.16
       merge-stream: 2.0.0
       supports-color: 8.1.1
+    dev: true
+
+  /js-sdsl/4.1.4:
+    resolution: {integrity: sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==}
     dev: true
 
   /js-string-escape/1.0.1:
