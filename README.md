@@ -13,7 +13,7 @@ Features
   component classes for production builds
 
 More information on why that is useful are available on our
-[blog](http://simplabs.com/blog/2016/03/04/ember-test-selectors.html)!
+[blog](http://mainmatter.com/blog/2016/03/04/ember-test-selectors.html)!
 
 
 Compatibility
@@ -101,7 +101,7 @@ License
 
 ember-test-selectors is developed by and &copy;
 [Mainmatter GmbH](http://mainmatter.com) and contributors. It is released under the
-[MIT License](https://github.com/simplabs/ember-simple-auth/blob/master/LICENSE).
+[MIT License](https://github.com/mainmatter/ember-simple-auth/blob/master/LICENSE).
 
 ember-test-selectors is not an official part of [Ember.js](http://emberjs.com)
 and is not maintained by the Ember.js Core Team.
