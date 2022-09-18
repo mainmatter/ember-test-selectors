@@ -6,12 +6,12 @@
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "simplabs GmbH",
+  "author": "Mainmatter GmbH",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/simplabs/ember-test-selectors",
+  "repository": "https://github.com/mainmatter/ember-test-selectors",
   "scripts": {
     "build": "ember build",
     "changelog": "lerna-changelog",
@@ -68,7 +68,7 @@
     "node": "12.* || 14.* || >= 16.*"
   },
   "changelog": {
-    "repo": "simplabs/ember-test-selectors",
+    "repo": "mainmatter/ember-test-selectors",
     "labels": {
       "breaking": ":boom: Breaking Change",
       "enhancement": ":rocket: Enhancement",
