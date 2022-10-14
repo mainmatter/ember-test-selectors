@@ -7,7 +7,7 @@ specifiers:
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
-  ember-auto-import: 2.4.2
+  ember-auto-import: 2.4.3
   ember-cli: 4.7.0
   ember-cli-babel: ^7.26.4
   ember-cli-dependency-checker: 3.3.1
@@ -49,7 +49,7 @@ devDependencies:
   '@ember/test-helpers': 2.8.1_7im6m2l4mwtzpmvk5fhkhm66gq
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
-  ember-auto-import: 2.4.2_webpack@5.74.0
+  ember-auto-import: 2.4.3_webpack@5.74.0
   ember-cli: 4.7.0
   ember-cli-dependency-checker: 3.3.1_ember-cli@4.7.0
   ember-cli-htmlbars: 6.1.1
@@ -1680,7 +1680,7 @@ packages:
   /@types/glob/8.0.0:
     resolution: {integrity: sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==}
     dependencies:
-      '@types/minimatch': 3.0.5
+      '@types/minimatch': 5.1.2
       '@types/node': 18.8.3
 
   /@types/json-schema/7.0.11:
@@ -1708,7 +1708,6 @@ packages:
 
   /@types/minimatch/5.1.2:
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
-    dev: true
 
   /@types/ms/0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
@@ -4019,8 +4018,8 @@ packages:
   /electron-to-chromium/1.4.276:
     resolution: {integrity: sha512-EpuHPqu8YhonqLBXHoU6hDJCD98FCe6KDoet3/gY1qsQ6usjJoHqBH2YIVs8FXaAtHwVL8Uqa/fsYao/vq9VWQ==}
 
-  /ember-auto-import/2.4.2_webpack@5.74.0:
-    resolution: {integrity: sha512-REh+1aJWpTkvN42a/ga41OuRpUsSW7UQfPr2wPtYx56o/xoSNhVBXejy7yV9ObrkN7gogz6fs2xZwih5cOwpYg==}
+  /ember-auto-import/2.4.3_webpack@5.74.0:
+    resolution: {integrity: sha512-yqtXDixgtBgaNIiz3DIIjJgpPoV5/UWBnsYIR/IxwDYpsGswyRWQ4D+IamkCDtaGDkZ7dNE9QZDBOrJCAG6KNA==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.19.3
@@ -4504,7 +4503,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
-      ember-auto-import: 2.4.2_webpack@5.74.0
+      ember-auto-import: 2.4.3_webpack@5.74.0
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
       qunit: 2.19.1
@@ -4571,7 +4570,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.4.2_webpack@5.74.0
+      ember-auto-import: 2.4.3_webpack@5.74.0
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
