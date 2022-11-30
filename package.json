@@ -30,7 +30,7 @@
     "ember-cli-version-checker": "^5.1.2"
   },
   "devDependencies": {
-    "@babel/core": "7.20.2",
+    "@babel/core": "7.20.5",
     "@ember/optional-features": "2.0.0",
     "@ember/test-helpers": "2.8.1",
     "@embroider/test-setup": "1.8.3",
