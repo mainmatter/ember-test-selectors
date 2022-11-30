@@ -7,7 +7,7 @@ specifiers:
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
-  ember-auto-import: 2.4.3
+  ember-auto-import: 2.5.0
   ember-cli: 4.8.0
   ember-cli-babel: ^7.26.4
   ember-cli-dependency-checker: 3.3.1
@@ -49,7 +49,7 @@ devDependencies:
   '@ember/test-helpers': 2.8.1_qwylpisvl6zudacbsnsqifryym
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
-  ember-auto-import: 2.4.3_webpack@5.75.0
+  ember-auto-import: 2.5.0_webpack@5.75.0
   ember-cli: 4.8.0
   ember-cli-dependency-checker: 3.3.1_ember-cli@4.8.0
   ember-cli-htmlbars: 6.1.1
@@ -1294,6 +1294,20 @@ packages:
 
   /@embroider/shared-internals/1.8.3:
     resolution: {integrity: sha512-N5Gho6Qk8z5u+mxLCcMYAoQMbN4MmH+z2jXwQHVs859bxuZTxwF6kKtsybDAASCtd2YGxEmzcc1Ja/wM28824w==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      babel-import-util: 1.3.0
+      ember-rfc176-data: 0.3.17
+      fs-extra: 9.1.0
+      js-string-escape: 1.0.1
+      lodash: 4.17.21
+      resolve-package-path: 4.0.3
+      semver: 7.3.8
+      typescript-memoize: 1.1.1
+    dev: true
+
+  /@embroider/shared-internals/2.0.0:
+    resolution: {integrity: sha512-qZ2/xky9mWm5YC6noOa6AiAwgISEQ78YTZNv4SNu2PFgEK/H+Ha/3ddngzGSsnXkVnIHZyxIBzhxETonQYHY9g==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       babel-import-util: 1.3.0
@@ -4049,8 +4063,8 @@ packages:
   /electron-to-chromium/1.4.284:
     resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
 
-  /ember-auto-import/2.4.3_webpack@5.75.0:
-    resolution: {integrity: sha512-yqtXDixgtBgaNIiz3DIIjJgpPoV5/UWBnsYIR/IxwDYpsGswyRWQ4D+IamkCDtaGDkZ7dNE9QZDBOrJCAG6KNA==}
+  /ember-auto-import/2.5.0_webpack@5.75.0:
+    resolution: {integrity: sha512-fKERUmpZLn4RJiCwTjS7D5zJxgnbF4E6GiSp1GYh53K96S+5UBs06r7ScDI52rq34z0+qdSrA6qiDJ3i/lWqKg==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.20.5
@@ -4058,7 +4072,7 @@ packages:
       '@babel/plugin-proposal-decorators': 7.20.2_@babel+core@7.20.5
       '@babel/preset-env': 7.20.2_@babel+core@7.20.5
       '@embroider/macros': 1.9.0
-      '@embroider/shared-internals': 1.8.3
+      '@embroider/shared-internals': 2.0.0
       babel-loader: 8.3.0_ztqwsvkb6z73luspkai6ilstpu
       babel-plugin-ember-modules-api-polyfill: 3.5.0
       babel-plugin-htmlbars-inline-precompile: 5.3.1
@@ -4534,7 +4548,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
-      ember-auto-import: 2.4.3_webpack@5.75.0
+      ember-auto-import: 2.5.0_webpack@5.75.0
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
       qunit: 2.19.3
@@ -4603,7 +4617,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.4.3_webpack@5.75.0
+      ember-auto-import: 2.5.0_webpack@5.75.0
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
