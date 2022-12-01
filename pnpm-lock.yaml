@@ -31,7 +31,7 @@ specifiers:
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.1.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   qunit: 2.19.3
   qunit-dom: 2.0.0
   release-it: 14.14.3
@@ -66,12 +66,12 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.28.0
   eslint-config-simplabs: 0.4.0_eslint@8.28.0
   eslint-plugin-ember: 11.2.1_ju7w56ryppj6wf4c4eda7fss5m
-  eslint-plugin-prettier: 4.2.1_pgxuib4rd7wiymfktharf5ydt4
+  eslint-plugin-prettier: 4.2.1_cwlo2dingkvfydnaculr42urve
   eslint-plugin-qunit: 7.3.4_eslint@8.28.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.1.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   qunit: 2.19.3
   qunit-dom: 2.0.0
   release-it: 14.14.3
@@ -4927,7 +4927,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_pgxuib4rd7wiymfktharf5ydt4:
+  /eslint-plugin-prettier/4.2.1_cwlo2dingkvfydnaculr42urve:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4940,7 +4940,7 @@ packages:
     dependencies:
       eslint: 8.28.0
       eslint-config-prettier: 8.5.0_eslint@8.28.0
-      prettier: 2.7.1
+      prettier: 2.8.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -8682,8 +8682,8 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -9111,7 +9111,7 @@ packages:
       '@babel/core': 7.20.5
       '@babel/plugin-syntax-decorators': 7.19.0_@babel+core@7.20.5
       '@babel/plugin-transform-typescript': 7.20.2_@babel+core@7.20.5
-      prettier: 2.7.1
+      prettier: 2.8.0
     transitivePeerDependencies:
       - supports-color
     dev: true
