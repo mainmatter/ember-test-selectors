@@ -30,7 +30,7 @@ specifiers:
   eslint-plugin-qunit: 7.3.4
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
-  mocha: 10.1.0
+  mocha: 10.2.0
   prettier: 2.8.1
   qunit: 2.19.3
   qunit-dom: 2.0.0
@@ -70,7 +70,7 @@ devDependencies:
   eslint-plugin-qunit: 7.3.4_eslint@8.29.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
-  mocha: 10.1.0
+  mocha: 10.2.0
   prettier: 2.8.1
   qunit: 2.19.3
   qunit-dom: 2.0.0
@@ -7926,8 +7926,8 @@ packages:
     resolution: {integrity: sha512-IXnMcJ6ZyTuhRmJSjzvHSRhlVPiN9Jwc6e59V0bEJ0ba6OBeX2L0E+mRN1QseeOF4mM+F1Rit6Nh7o+rl2Yn/A==}
     engines: {node: '>0.9'}
 
-  /mocha/10.1.0:
-    resolution: {integrity: sha512-vUF7IYxEoN7XhQpFLxQAEMtE4W91acW4B6En9l97MwE9stL1A9gusXfoHZCLVHDUJ/7V5+lbCM6yMqzo5vNymg==}
+  /mocha/10.2.0:
+    resolution: {integrity: sha512-IDY7fl/BecMwFHzoqF2sg/SHHANeBoMMXFlS9r0OXKDssYE1M5O43wUY/9BVPeIvfH2zmEbBfseqN9gBQZzXkg==}
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
@@ -11035,7 +11035,7 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.3
       y18n: 5.0.8
-      yargs-parser: 20.2.4
+      yargs-parser: 20.2.9
     dev: true
 
   /yargs/17.6.2:
