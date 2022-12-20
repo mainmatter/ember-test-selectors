@@ -18,7 +18,7 @@ specifiers:
   ember-load-initializers: 2.1.2
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 6.0.0
-  ember-resolver: 8.0.3
+  ember-resolver: 8.1.0
   ember-source: 4.9.3
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
@@ -58,7 +58,7 @@ devDependencies:
   ember-load-initializers: 2.1.2_@babel+core@7.20.5
   ember-maybe-import-regenerator: 1.0.0
   ember-qunit: 6.0.0_kpjf7lqvbhq5wc56pgzqud54da
-  ember-resolver: 8.0.3_@babel+core@7.20.5
+  ember-resolver: 8.1.0_@babel+core@7.20.5
   ember-source: 4.9.3_ztqwsvkb6z73luspkai6ilstpu
   ember-source-channel-url: 3.0.0
   ember-try: 2.0.0
@@ -4526,8 +4526,8 @@ packages:
       - webpack
     dev: true
 
-  /ember-resolver/8.0.3_@babel+core@7.20.5:
-    resolution: {integrity: sha512-fA53fxfG821BRqNiB9mQDuzZpzSRcSAYZTYBlRQOHsJwoYdjyE7idz4YcytbSsa409G5J2kP6B+PiKOBh0odlw==}
+  /ember-resolver/8.1.0_@babel+core@7.20.5:
+    resolution: {integrity: sha512-MGD7X2ztZVswGqs1mLgzhZJRhG7XiF6Mg4DgC7xJFWRYQQUHyGJpGdNWY9nXyrYnRIsCrQoL1do41zpxbrB/cg==}
     engines: {node: '>= 10.*'}
     dependencies:
       babel-plugin-debug-macros: 0.3.4_@babel+core@7.20.5
