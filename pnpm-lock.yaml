@@ -25,7 +25,7 @@ specifiers:
   eslint: 8.31.0
   eslint-config-prettier: 8.6.0
   eslint-config-simplabs: 0.4.0
-  eslint-plugin-ember: 11.4.0
+  eslint-plugin-ember: 11.4.1
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 7.3.4
   lerna-changelog: 2.2.0
@@ -65,7 +65,7 @@ devDependencies:
   eslint: 8.31.0
   eslint-config-prettier: 8.6.0_eslint@8.31.0
   eslint-config-simplabs: 0.4.0_eslint@8.31.0
-  eslint-plugin-ember: 11.4.0_i3gkwcomgxjqik66fwsuw2d75u
+  eslint-plugin-ember: 11.4.1_i3gkwcomgxjqik66fwsuw2d75u
   eslint-plugin-prettier: 4.2.1_32m5uc2milwdw3tnkcq5del26y
   eslint-plugin-qunit: 7.3.4_eslint@8.31.0
   lerna-changelog: 2.2.0
@@ -4874,8 +4874,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/11.4.0_i3gkwcomgxjqik66fwsuw2d75u:
-    resolution: {integrity: sha512-T6e3eQ6dhhkMFmr5L9UsIbKqDAfCyFcy09xu9oG0EVcDflP7phWX60oWfcaBFFc8MqDy28y8Ukp3gaSbSV6IIw==}
+  /eslint-plugin-ember/11.4.1_i3gkwcomgxjqik66fwsuw2d75u:
+    resolution: {integrity: sha512-CAeM5ONNFhWylfxhm+WI6XKZYFk8/4sNp7Ezgnu/bgP+ozmeZInIxVlCU/tq7SPGEmJf4ax6OAOTcNAvtwWGIQ==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
@@ -10616,7 +10616,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.3.8
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
