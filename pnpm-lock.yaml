@@ -7,7 +7,7 @@ specifiers:
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
   calculate-cache-key-for-tree: ^2.0.0
-  ember-auto-import: 2.5.0
+  ember-auto-import: 2.6.0
   ember-cli: 4.10.0
   ember-cli-babel: ^7.26.4
   ember-cli-dependency-checker: 3.3.1
@@ -49,7 +49,7 @@ devDependencies:
   '@ember/test-helpers': 2.9.3_2lbu44dmrdozuoe4jwbycbgazy
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
-  ember-auto-import: 2.5.0_webpack@5.75.0
+  ember-auto-import: 2.6.0_webpack@5.75.0
   ember-cli: 4.10.0
   ember-cli-dependency-checker: 3.3.1_ember-cli@4.10.0
   ember-cli-htmlbars: 6.2.0
@@ -4056,8 +4056,8 @@ packages:
   /electron-to-chromium/1.4.284:
     resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==}
 
-  /ember-auto-import/2.5.0_webpack@5.75.0:
-    resolution: {integrity: sha512-fKERUmpZLn4RJiCwTjS7D5zJxgnbF4E6GiSp1GYh53K96S+5UBs06r7ScDI52rq34z0+qdSrA6qiDJ3i/lWqKg==}
+  /ember-auto-import/2.6.0_webpack@5.75.0:
+    resolution: {integrity: sha512-xUyypxlaqWvrx2KSseLus0H8K7Dt+sXNCvcxtquT2EmIM6r67NuQUT9woiEMa9UBvqcaX2k9hNLeubDl78saig==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@babel/core': 7.20.12
@@ -4519,7 +4519,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
-      ember-auto-import: 2.5.0_webpack@5.75.0
+      ember-auto-import: 2.6.0_webpack@5.75.0
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
       qunit: 2.19.4
@@ -4588,7 +4588,7 @@ packages:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
       chalk: 4.1.2
-      ember-auto-import: 2.5.0_webpack@5.75.0
+      ember-auto-import: 2.6.0_webpack@5.75.0
       ember-cli-babel: 7.26.11
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
