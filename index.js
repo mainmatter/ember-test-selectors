@@ -68,10 +68,16 @@ module.exports = {
 
       appOrParent.options = appOrParent.options || {};
 
-      if (checker.satisfies('^6.0.0-beta.1') || checker.satisfies('^7.0.0')) {
+      if (checker.satisfies('^6.0.0-beta.1')) {
         appOrParent.options.babel6 = appOrParent.options.babel6 || {};
         appOrParent.options.babel6.plugins = appOrParent.options.babel6.plugins || [];
         appOrParent.options.babel6.plugins.push(
+          require.resolve('./strip-data-test-properties-plugin6')
+        );
+      } else if (checker.satisfies('^7.0.0')) {
+        appOrParent.options.babel = appOrParent.options.babel || {};
+        appOrParent.options.babel.plugins = appOrParent.options.babel.plugins || [];
+        appOrParent.options.babel.plugins.push(
           require.resolve('./strip-data-test-properties-plugin6')
         );
       } else {
