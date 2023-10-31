@@ -74,7 +74,7 @@ module.exports = {
         appOrParent.options.babel6.plugins.push(
           require.resolve('./strip-data-test-properties-plugin6')
         );
-      } else if (checker.satisfies('^7.0.0')) {
+      } else if (checker.satisfies('^7.0.0') || checker.satisfies('^8.0.0')) {
         appOrParent.options.babel = appOrParent.options.babel || {};
         appOrParent.options.babel.plugins = appOrParent.options.babel.plugins || [];
         appOrParent.options.babel.plugins.push(
