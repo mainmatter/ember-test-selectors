@@ -5,18 +5,17 @@
   "keywords": [
     "ember-addon"
   ],
+  "repository": "https://github.com/mainmatter/ember-test-selectors",
   "license": "MIT",
   "author": "Mainmatter GmbH",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/mainmatter/ember-test-selectors",
   "scripts": {
     "build": "ember build",
     "changelog": "lerna-changelog",
     "lint": "eslint . --cache",
-    "release": "release-it",
     "start": "ember server",
     "test": "npm run test:keep && npm run test:strip",
     "test:all": "ember try:each",
@@ -60,8 +59,7 @@
     "prettier": "2.8.5",
     "qunit": "2.19.4",
     "qunit-dom": "2.0.0",
-    "release-it": "14.14.3",
-    "release-it-lerna-changelog": "4.0.1",
+    "release-plan": "^0.7.0",
     "webpack": "5.76.2"
   },
   "engines": {
