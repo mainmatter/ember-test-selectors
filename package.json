@@ -32,6 +32,7 @@
   "devDependencies": {
     "@babel/core": "7.21.3",
     "@ember/optional-features": "2.0.0",
+    "@ember/string": "3.1.1",
     "@ember/test-helpers": "2.9.3",
     "@embroider/test-setup": "1.8.3",
     "broccoli-stew": "3.0.0",
@@ -89,5 +90,9 @@
     "versionCompatibility": {
       "ember": "3.8 || 3.12 || 3.16 || 3.20 || >=3.24"
     }
+  },
+  "volta": {
+    "node": "14.21.3",
+    "pnpm": "6.35.1"
   }
 }
