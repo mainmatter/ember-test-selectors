@@ -1,5 +1,38 @@
 # Changelog
 
+
+## v7.0.0 (2024-07-25)
+
+#### :boom: Breaking Change
+* [#1258](https://github.com/mainmatter/ember-test-selectors/pull/1258) Remove support for Node.js 12, 14 and 16 ([@Turbo87](https://github.com/Turbo87))
+
+#### :rocket: Enhancement
+* [#1220](https://github.com/mainmatter/ember-test-selectors/pull/1220) Remove Glimmer AST Deprecation ([@jrjohnson](https://github.com/jrjohnson))
+* [#1213](https://github.com/mainmatter/ember-test-selectors/pull/1213) Add support for `ember-cli-babel` v8 ([@bertdeblock](https://github.com/bertdeblock))
+
+#### :bug: Bug Fix
+* [#1212](https://github.com/mainmatter/ember-test-selectors/pull/1212) Fix support for `ember-cli-babel` v7 ([@bertdeblock](https://github.com/bertdeblock))
+
+#### :house: Internal
+* [#1257](https://github.com/mainmatter/ember-test-selectors/pull/1257) CI: Add Node.js 18 and 20 to the test matrix ([@Turbo87](https://github.com/Turbo87))
+* [#1256](https://github.com/mainmatter/ember-test-selectors/pull/1256) CI: Disable floating Ember.js test scenarios ([@Turbo87](https://github.com/Turbo87))
+* [#889](https://github.com/mainmatter/ember-test-selectors/pull/889) renovate: Update `pnpm` version automatically ([@Turbo87](https://github.com/Turbo87))
+* [#670](https://github.com/mainmatter/ember-test-selectors/pull/670) Add Embroider's test-setup package ([@thoov](https://github.com/thoov))
+* [#847](https://github.com/mainmatter/ember-test-selectors/pull/847) Use `prettier` for code formatting ([@Turbo87](https://github.com/Turbo87))
+* [#846](https://github.com/mainmatter/ember-test-selectors/pull/846) CI: Run ember-try scenarios in parallel ([@Turbo87](https://github.com/Turbo87))
+* [#845](https://github.com/mainmatter/ember-test-selectors/pull/845) Add `ember-auto-import` and `webpack` dev dependencies ([@Turbo87](https://github.com/Turbo87))
+* [#844](https://github.com/mainmatter/ember-test-selectors/pull/844) Enable optional Ember.js features ([@Turbo87](https://github.com/Turbo87))
+* [#754](https://github.com/mainmatter/ember-test-selectors/pull/754) Use `pnpm` package manager ([@Turbo87](https://github.com/Turbo87))
+* [#761](https://github.com/mainmatter/ember-test-selectors/pull/761) CI: Use new yarn cache in `setup-node` action ([@oscard0m](https://github.com/oscard0m))
+
+#### Committers: 6
+- Bert De Block ([@bertdeblock](https://github.com/bertdeblock))
+- Jon Johnson ([@jrjohnson](https://github.com/jrjohnson))
+- Marco Otte-Witte ([@marcoow](https://github.com/marcoow))
+- Oscar Dominguez ([@oscard0m](https://github.com/oscard0m))
+- Tobias Bieniek ([@Turbo87](https://github.com/Turbo87))
+- Travis Hoover ([@thoov](https://github.com/thoov))
+
 ## v6.0.0 (2021-07-05)
 
 #### :boom: Breaking Change
