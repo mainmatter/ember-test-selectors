@@ -51,7 +51,7 @@
     "eslint": "8.36.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-config-simplabs": "0.4.0",
-    "eslint-plugin-ember": "11.4.8",
+    "eslint-plugin-ember": "11.4.9",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-qunit": "7.3.4",
     "lerna-changelog": "2.2.0",
