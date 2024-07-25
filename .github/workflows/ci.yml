@@ -26,7 +26,7 @@ jobs:
 
       - uses: actions/setup-node@v4.0.3
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: pnpm
 
       - run: pnpm install
@@ -39,7 +39,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node-version: [12.x, 14.x, 16.x, 18.x, 20.x]
+        node-version: [18.x, 20.x, 22.x]
 
     steps:
       - uses: actions/checkout@v4.1.7
@@ -88,7 +88,7 @@ jobs:
 
       - uses: actions/setup-node@v4.0.3
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: pnpm
 
       - run: pnpm install
