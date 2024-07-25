@@ -26,7 +26,7 @@ specifiers:
   eslint-config-prettier: 9.1.0
   eslint-config-simplabs: 0.4.0
   eslint-plugin-ember: 12.1.1
-  eslint-plugin-prettier: 4.2.1
+  eslint-plugin-prettier: 5.2.1
   eslint-plugin-qunit: 8.1.1
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
@@ -66,7 +66,7 @@ devDependencies:
   eslint-config-prettier: 9.1.0_eslint@8.57.0
   eslint-config-simplabs: 0.4.0_eslint@8.57.0
   eslint-plugin-ember: 12.1.1_tdelzjpmhifatgggbqtyqcqoda
-  eslint-plugin-prettier: 4.2.1_zeqqbltizyzbm6db3c6p5ijw5i
+  eslint-plugin-prettier: 5.2.1_zeqqbltizyzbm6db3c6p5ijw5i
   eslint-plugin-qunit: 8.1.1_eslint@8.57.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
@@ -1820,6 +1820,11 @@ packages:
     resolution: {integrity: sha512-eJ2jbzjdijiL3B4PrSQaSjuF2sPEQPVCPzBvTHJD9Nz+9dw2SGH4K4xeQJ77YfTq5bRQ+bD8wT11JbeDPmxmGg==}
     dependencies:
       '@octokit/openapi-types': 12.11.0
+    dev: true
+
+  /@pkgr/core/0.1.1:
+    resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
+    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
   /@simple-dom/interface/1.4.0:
@@ -5262,14 +5267,17 @@ packages:
       - '@babel/core'
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_zeqqbltizyzbm6db3c6p5ijw5i:
-    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
-    engines: {node: '>=12.0.0'}
+  /eslint-plugin-prettier/5.2.1_zeqqbltizyzbm6db3c6p5ijw5i:
+    resolution: {integrity: sha512-gH3iR3g4JfF+yYPaJYkN7jEl9QbweL/YfkoRlNnuIEHEz1vHVlCmWOS+eGGiRuzHQXdJFCOTxRgvju9b8VUmrw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=7.28.0'
+      '@types/eslint': '>=8.0.0'
+      eslint: '>=8.0.0'
       eslint-config-prettier: '*'
-      prettier: '>=2.0.0'
+      prettier: '>=3.0.0'
     peerDependenciesMeta:
+      '@types/eslint':
+        optional: true
       eslint-config-prettier:
         optional: true
     dependencies:
@@ -5277,6 +5285,7 @@ packages:
       eslint-config-prettier: 9.1.0_eslint@8.57.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
+      synckit: 0.9.1
     dev: true
 
   /eslint-plugin-qunit/8.1.1_eslint@8.57.0:
@@ -10510,6 +10519,14 @@ packages:
       username-sync: 1.0.3
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /synckit/0.9.1:
+    resolution: {integrity: sha512-7gr8p9TQP6RAHusBOSLs46F4564ZrjV8xFmw5zCmgmhGUcw2hxsShhJ6CEiHQMgPDwAQ1fWHPM0ypc4RMAig4A==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@pkgr/core': 0.1.1
+      tslib: 2.6.3
     dev: true
 
   /tap-parser/7.0.0:
