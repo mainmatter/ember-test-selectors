@@ -31,7 +31,7 @@ specifiers:
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.7.0
-  prettier: 2.8.5
+  prettier: 2.8.8
   qunit: 2.19.4
   qunit-dom: 3.2.0
   release-it: 14.14.3
@@ -66,12 +66,12 @@ devDependencies:
   eslint-config-prettier: 9.1.0_eslint@8.36.0
   eslint-config-simplabs: 0.4.0_eslint@8.36.0
   eslint-plugin-ember: 12.1.1_pxuto7xgangxlusvzceggvrmde
-  eslint-plugin-prettier: 4.2.1_rerguc6i3mrkv5aejio2arplne
+  eslint-plugin-prettier: 4.2.1_kxjmq2psr5ewwa6zbtfzqgf4hq
   eslint-plugin-qunit: 8.1.1_eslint@8.36.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.7.0
-  prettier: 2.8.5
+  prettier: 2.8.8
   qunit: 2.19.4
   qunit-dom: 3.2.0
   release-it: 14.14.3
@@ -5250,7 +5250,7 @@ packages:
       - '@babel/core'
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_rerguc6i3mrkv5aejio2arplne:
+  /eslint-plugin-prettier/4.2.1_kxjmq2psr5ewwa6zbtfzqgf4hq:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -5263,7 +5263,7 @@ packages:
     dependencies:
       eslint: 8.36.0
       eslint-config-prettier: 9.1.0_eslint@8.36.0
-      prettier: 2.8.5
+      prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -9108,8 +9108,8 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier/2.8.5:
-    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -9534,7 +9534,7 @@ packages:
       '@babel/core': 7.21.3
       '@babel/plugin-syntax-decorators': 7.24.7_@babel+core@7.21.3
       '@babel/plugin-transform-typescript': 7.24.8_@babel+core@7.21.3
-      prettier: 2.8.5
+      prettier: 2.8.8
     transitivePeerDependencies:
       - supports-color
     dev: true
