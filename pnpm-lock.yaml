@@ -25,7 +25,7 @@ specifiers:
   eslint: 8.36.0
   eslint-config-prettier: 8.8.0
   eslint-config-simplabs: 0.4.0
-  eslint-plugin-ember: 11.4.8
+  eslint-plugin-ember: 11.12.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 7.3.4
   lerna-changelog: 2.2.0
@@ -65,7 +65,7 @@ devDependencies:
   eslint: 8.36.0
   eslint-config-prettier: 8.8.0_eslint@8.36.0
   eslint-config-simplabs: 0.4.0_eslint@8.36.0
-  eslint-plugin-ember: 11.4.8_eslint@8.36.0
+  eslint-plugin-ember: 11.12.0_eslint@8.36.0
   eslint-plugin-prettier: 4.2.1_i2qmqyy4fgpgq2h7f6vnil3crq
   eslint-plugin-qunit: 7.3.4_eslint@8.36.0
   lerna-changelog: 2.2.0
@@ -1387,10 +1387,32 @@ packages:
     resolution: {integrity: sha512-JKF/a9I9jw6fGoz8kA7LEQslrwJ5jms5CXhu/aqkBWk+PmZ6pTl8mlb/eJ/5ujBGTiQzBhy5AIWF712iA+4/mw==}
     dev: true
 
+  /@glimmer/global-context/0.84.3:
+    resolution: {integrity: sha512-8Oy9Wg5IZxMEeAnVmzD2NkObf89BeHoFSzJgJROE/deutd3rxg83mvlOez4zBBGYwnTb+VGU2LYRpet92egJjA==}
+    dependencies:
+      '@glimmer/env': 0.1.7
+    dev: true
+
   /@glimmer/interfaces/0.84.2:
     resolution: {integrity: sha512-tMZxQpOddUVmHEOuripkNqVR7ba0K4doiYnFd4WyswqoHPlxqpBujbIamQ+bWCWEF0U4yxsXKa31ekS/JHkiBQ==}
     dependencies:
       '@simple-dom/interface': 1.4.0
+    dev: true
+
+  /@glimmer/interfaces/0.84.3:
+    resolution: {integrity: sha512-dk32ykoNojt0mvEaIW6Vli5MGTbQo58uy3Epj7ahCgTHmWOKuw/0G83f2UmFprRwFx689YTXG38I/vbpltEjzg==}
+    dependencies:
+      '@simple-dom/interface': 1.4.0
+    dev: true
+
+  /@glimmer/reference/0.84.3:
+    resolution: {integrity: sha512-lV+p/aWPVC8vUjmlvYVU7WQJsLh319SdXuAWoX/SE3pq340BJlAJiEcAc6q52y9JNhT57gMwtjMX96W5Xcx/qw==}
+    dependencies:
+      '@glimmer/env': 0.1.7
+      '@glimmer/global-context': 0.84.3
+      '@glimmer/interfaces': 0.84.3
+      '@glimmer/util': 0.84.3
+      '@glimmer/validator': 0.84.3
     dev: true
 
   /@glimmer/syntax/0.84.2:
@@ -1402,12 +1424,36 @@ packages:
       simple-html-tokenizer: 0.5.11
     dev: true
 
+  /@glimmer/syntax/0.84.3:
+    resolution: {integrity: sha512-ioVbTic6ZisLxqTgRBL2PCjYZTFIwobifCustrozRU2xGDiYvVIL0vt25h2c1ioDsX59UgVlDkIK4YTAQQSd2A==}
+    dependencies:
+      '@glimmer/interfaces': 0.84.3
+      '@glimmer/util': 0.84.3
+      '@handlebars/parser': 2.0.0
+      simple-html-tokenizer: 0.5.11
+    dev: true
+
   /@glimmer/util/0.84.2:
     resolution: {integrity: sha512-VbhzE2s4rmU+qJF3gGBTL1IDjq+/G2Th51XErS8MQVMCmE4CU2pdwSzec8PyOowqCGUOrVIWuMzEI6VoPM4L4w==}
     dependencies:
       '@glimmer/env': 0.1.7
       '@glimmer/interfaces': 0.84.2
       '@simple-dom/interface': 1.4.0
+    dev: true
+
+  /@glimmer/util/0.84.3:
+    resolution: {integrity: sha512-qFkh6s16ZSRuu2rfz3T4Wp0fylFj3HBsONGXQcrAdZjdUaIS6v3pNj6mecJ71qRgcym9Hbaq/7/fefIwECUiKw==}
+    dependencies:
+      '@glimmer/env': 0.1.7
+      '@glimmer/interfaces': 0.84.3
+      '@simple-dom/interface': 1.4.0
+    dev: true
+
+  /@glimmer/validator/0.84.3:
+    resolution: {integrity: sha512-RTBV4TokUB0vI31UC7ikpV7lOYpWUlyqaKV//pRC4pexYMlmqnVhkFrdiimB/R1XyNdUOQUmnIAcdic39NkbhQ==}
+    dependencies:
+      '@glimmer/env': 0.1.7
+      '@glimmer/global-context': 0.84.3
     dev: true
 
   /@glimmer/vm-babel-plugins/0.84.2_@babel+core@7.21.3:
@@ -3430,6 +3476,11 @@ packages:
     engines: {node: '>=0.1.90'}
     dev: true
 
+  /colors/1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
+    dev: true
+
   /combined-stream/1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
@@ -3456,6 +3507,11 @@ packages:
   /commander/7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
+    dev: true
+
+  /commander/8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
     dev: true
 
   /common-tags/1.8.2:
@@ -4645,8 +4701,8 @@ packages:
       - webpack
     dev: true
 
-  /ember-template-imports/3.4.1:
-    resolution: {integrity: sha512-KXnBFTAVxCfXnSCUgd/iuic9ajWbmFkRUBEeorJAMqxvougsPoK22s5ygE9O3GnzYdPpMwn+8v+/NAGy8HRBGA==}
+  /ember-template-imports/3.4.2:
+    resolution: {integrity: sha512-OS8TUVG2kQYYwP3netunLVfeijPoOKIs1SvPQRTNOQX4Pu8xGGBEZmrv0U1YTnQn12Eg+p6w/0UdGbUnITjyzw==}
     engines: {node: 12.* || >= 14}
     dependencies:
       babel-import-util: 0.2.0
@@ -4658,6 +4714,26 @@ packages:
       parse-static-imports: 1.1.0
       string.prototype.matchall: 4.0.8
       validate-peer-dependencies: 1.2.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /ember-template-recast/6.1.5:
+    resolution: {integrity: sha512-VnRN8FzEHQnw/5rCv6Wnq8MVYXbGQbFY+rEufvWV+FO/IsxMahGEud4MYWtTA2q8iG+qJFrDQefNvQ//7MI7Qw==}
+    engines: {node: 12.* || 14.* || >= 16.*}
+    hasBin: true
+    dependencies:
+      '@glimmer/reference': 0.84.3
+      '@glimmer/syntax': 0.84.3
+      '@glimmer/validator': 0.84.3
+      async-promise-queue: 1.0.5
+      colors: 1.4.0
+      commander: 8.3.0
+      globby: 11.0.4
+      ora: 5.4.1
+      slash: 3.0.0
+      tmp: 0.2.1
+      workerpool: 6.4.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4925,8 +5001,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/11.4.8_eslint@8.36.0:
-    resolution: {integrity: sha512-ytHEMDNkXbkBAfw2loR62pLozOiMp+Y7BJaupSQK25lCsfrhVMsfog2uTvicoCwDDPgcOJrivdUmMbfErOGOdQ==}
+  /eslint-plugin-ember/11.12.0_eslint@8.36.0:
+    resolution: {integrity: sha512-7Ow1ky5JnRR0k3cxuvgYi4AWTe9DzGjlLgOJbU5VABLgr7Q0iq3ioC+YwAP79nV48cpw2HOgMgkZ1MynuIg59g==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
@@ -4935,7 +5011,8 @@ packages:
       '@glimmer/syntax': 0.84.2
       css-tree: 2.3.1
       ember-rfc176-data: 0.3.18
-      ember-template-imports: 3.4.1
+      ember-template-imports: 3.4.2
+      ember-template-recast: 6.1.5
       eslint: 8.36.0
       eslint-utils: 3.0.0_eslint@8.36.0
       estraverse: 5.3.0
@@ -5924,6 +6001,7 @@ packages:
 
   /glob/5.0.15:
     resolution: {integrity: sha512-c9IPMazfRITpmAAKi22dK1VKxGDX9ehhqfABDriL/lzO92xcUKEJPQHrVA/2YHSNFB4iFlykVmWvwo48nr3OxA==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       inflight: 1.0.6
       inherits: 2.0.4
@@ -9422,12 +9500,14 @@ packages:
 
   /rimraf/2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
 
   /rimraf/3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
@@ -10731,7 +10811,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.3.8
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
