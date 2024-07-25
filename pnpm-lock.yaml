@@ -21,7 +21,7 @@ specifiers:
   ember-resolver: 8.1.0
   ember-source: 4.12.4
   ember-source-channel-url: 3.0.0
-  ember-try: 2.0.0
+  ember-try: 3.0.0
   eslint: 8.57.0
   eslint-config-prettier: 9.1.0
   eslint-config-simplabs: 0.4.0
@@ -61,7 +61,7 @@ devDependencies:
   ember-resolver: 8.1.0_@babel+core@7.21.3
   ember-source: 4.12.4_h5x7dh6zbbyopr7jvxivhylqpa
   ember-source-channel-url: 3.0.0
-  ember-try: 2.0.0
+  ember-try: 3.0.0
   eslint: 8.57.0
   eslint-config-prettier: 9.1.0_eslint@8.57.0
   eslint-config-simplabs: 0.4.0_eslint@8.57.0
@@ -4957,9 +4957,9 @@ packages:
       - encoding
     dev: true
 
-  /ember-try/2.0.0:
-    resolution: {integrity: sha512-2N7Vic45sbAegA5fhdfDjVbEVS4r+ze+tTQs2/wkY+8fC5yAGHfCM5ocyoTfBN5m7EhznC3AyMsOy4hLPzHFSQ==}
-    engines: {node: 10.* || 12.* || >= 14.*}
+  /ember-try/3.0.0:
+    resolution: {integrity: sha512-ZYVKYWMnrHSD3vywo7rV76kPCOC9ATIEnGGG/PEKfCcFE0lB26jltRDnOrhORfLKq0JFp62fFxC/4940U+MwRQ==}
+    engines: {node: 16.* || >= 18.*}
     dependencies:
       chalk: 4.1.2
       cli-table3: 0.6.5
@@ -4967,9 +4967,10 @@ packages:
       debug: 4.3.5
       ember-try-config: 4.0.0
       execa: 4.1.0
-      fs-extra: 9.1.0
+      fs-extra: 6.0.1
       resolve: 1.22.8
       rimraf: 3.0.2
+      semver: 7.6.3
       walk-sync: 2.2.0
     transitivePeerDependencies:
       - encoding
@@ -5997,6 +5998,14 @@ packages:
 
   /fs-extra/5.0.0:
     resolution: {integrity: sha512-66Pm4RYbjzdyeuqudYqhFiNBbCIuI9kgRqLPSHIlXHidW8NIQtVdkM1yeZ4lXwuhbTETv3EUGMNHAAw6hiundQ==}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 4.0.0
+      universalify: 0.1.2
+    dev: true
+
+  /fs-extra/6.0.1:
+    resolution: {integrity: sha512-GnyIkKhhzXZUWFCaJzvyDLEEgDkPfb4/TPvJCJVuS8MWZgoSsErf++QpiAlDnKFcqhRlm+tIOcencCjyJE6ZCA==}
     dependencies:
       graceful-fs: 4.2.11
       jsonfile: 4.0.0
