@@ -18,12 +18,12 @@ module.exports = function () {
       },
 
       MustacheStatement(node) {
-        node.params = node.params.filter(param => !isTestSelector(param.original));
+        node.params = node.params.filter(param => !isTestSelector(param.value));
         node.hash.pairs = node.hash.pairs.filter(pair => !isTestSelector(pair.key));
       },
 
       BlockStatement(node) {
-        node.params = node.params.filter(param => !isTestSelector(param.original));
+        node.params = node.params.filter(param => !isTestSelector(param.value));
         node.hash.pairs = node.hash.pairs.filter(pair => !isTestSelector(pair.key));
       },
     },
