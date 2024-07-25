@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.21.3
-  '@ember/optional-features': 2.0.0
+  '@ember/optional-features': 2.1.0
   '@ember/test-helpers': 2.9.4
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
@@ -45,7 +45,7 @@ dependencies:
 
 devDependencies:
   '@babel/core': 7.21.3
-  '@ember/optional-features': 2.0.0
+  '@ember/optional-features': 2.1.0
   '@ember/test-helpers': 2.9.4_vhmtgy5g3g675connghzwama5y
   '@embroider/test-setup': 1.8.3
   broccoli-stew: 3.0.0
@@ -1465,8 +1465,8 @@ packages:
     resolution: {integrity: sha512-VmVq/8saCaPdesQmftPqbFtxJWrzxNGSQ+e8x8LLe3Hjm36pJ04Q8LeORGZkAeOhldoUX9seLGmSaHeXkIqoog==}
     dev: true
 
-  /@ember/optional-features/2.0.0:
-    resolution: {integrity: sha512-4gkvuGRYfpAh1nwAz306cmMeC1mG7wxZnbsBZ09mMaMX/W7IyKOKc/38JwrDPUFUalmNEM7q7JEPcmew2M3Dog==}
+  /@ember/optional-features/2.1.0:
+    resolution: {integrity: sha512-IXjDpTFhsjPk9h3OXwXjlRfhM/Wjtw2E71Xos/81ZsTTwZMB9H+DWhsxePXOkzYy7Jvw4TIzKbMfcnT8mrtwWQ==}
     engines: {node: 10.* || 12.* || >= 14}
     dependencies:
       chalk: 4.1.2
@@ -6271,6 +6271,7 @@ packages:
 
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
