@@ -27,7 +27,7 @@ specifiers:
   eslint-config-simplabs: 0.4.0
   eslint-plugin-ember: 11.4.8
   eslint-plugin-prettier: 4.2.1
-  eslint-plugin-qunit: 7.3.4
+  eslint-plugin-qunit: 8.1.1
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.2.0
@@ -67,7 +67,7 @@ devDependencies:
   eslint-config-simplabs: 0.4.0_eslint@8.36.0
   eslint-plugin-ember: 11.4.8_eslint@8.36.0
   eslint-plugin-prettier: 4.2.1_i2qmqyy4fgpgq2h7f6vnil3crq
-  eslint-plugin-qunit: 7.3.4_eslint@8.36.0
+  eslint-plugin-qunit: 8.1.1_eslint@8.36.0
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.2.0
@@ -4965,9 +4965,9 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-qunit/7.3.4_eslint@8.36.0:
-    resolution: {integrity: sha512-EbDM0zJerH9zVdUswMJpcFF7wrrpvsGuYfNexUpa5hZkkdFhaFcX+yD+RSK4Nrauw4psMGlcqeWUMhaVo+Manw==}
-    engines: {node: 12.x || 14.x || >=16.0.0}
+  /eslint-plugin-qunit/8.1.1_eslint@8.36.0:
+    resolution: {integrity: sha512-j3xhiAf2Wvr8Dfwl5T6tlJ+F55vqYE9ZdAHUOTzq1lGerYrXzOS46RvK4SSWug2D8sl3ZYr2lA4/hgVXgLloxw==}
+    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     dependencies:
       eslint-utils: 3.0.0_eslint@8.36.0
       requireindex: 1.2.0
