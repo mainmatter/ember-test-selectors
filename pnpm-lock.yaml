@@ -33,7 +33,7 @@ specifiers:
   mocha: 10.7.3
   prettier: 2.8.8
   qunit: 2.19.4
-  qunit-dom: 3.2.0
+  qunit-dom: 3.2.1
   release-it: 14.14.3
   release-it-lerna-changelog: 4.0.1
   webpack: 5.94.0
@@ -73,7 +73,7 @@ devDependencies:
   mocha: 10.7.3
   prettier: 2.8.8
   qunit: 2.19.4
-  qunit-dom: 3.2.0
+  qunit-dom: 3.2.1
   release-it: 14.14.3
   release-it-lerna-changelog: 4.0.1_release-it@14.14.3
   webpack: 5.94.0
@@ -9279,8 +9279,8 @@ packages:
       rimraf: 2.7.1
       underscore.string: 3.3.6
 
-  /qunit-dom/3.2.0:
-    resolution: {integrity: sha512-VYFXbwod2sis16Nzgx5UrdCvjNUPYIAbTwEGv7hF1RfgJaVgG5ASVaQz9en0ZRvlybtql0LrVuAbleJU/57zQQ==}
+  /qunit-dom/3.2.1:
+    resolution: {integrity: sha512-+qSm8zQ7hPA9NijmTDVsUFNGEFP/K+DTymjlsU01O3NhkGtb9rsZRztJXwaiAlmVSX4vSzjydPxpZCRhpWIq4A==}
     dependencies:
       dom-element-descriptors: 0.5.1
     dev: true
