@@ -25,7 +25,7 @@ specifiers:
   eslint: 8.57.1
   eslint-config-prettier: 9.1.0
   eslint-config-simplabs: 0.4.0
-  eslint-plugin-ember: 12.3.1
+  eslint-plugin-ember: 12.3.3
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 8.1.2
   lerna-changelog: 2.2.0
@@ -65,7 +65,7 @@ devDependencies:
   eslint: 8.57.1
   eslint-config-prettier: 9.1.0_eslint@8.57.1
   eslint-config-simplabs: 0.4.0_eslint@8.57.1
-  eslint-plugin-ember: 12.3.1_ug2igzfsn2htp6pvbk547j4y6y
+  eslint-plugin-ember: 12.3.3_ug2igzfsn2htp6pvbk547j4y6y
   eslint-plugin-prettier: 4.2.1_o6cgegp6polyisa35v7yglocei
   eslint-plugin-qunit: 8.1.2_eslint@8.57.1
   lerna-changelog: 2.2.0
@@ -4108,11 +4108,11 @@ packages:
       webpack: 5.96.1
     dev: true
 
-  /css-tree/2.3.1:
-    resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==}
+  /css-tree/3.1.0:
+    resolution: {integrity: sha512-0eW44TGN5SQXU1mWSkKwFstI/22X2bG1nYzZTYMAWjylYURhse752YgbE4Cx46AC+bAvI+/dYTPRk1LqSUnu6w==}
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
     dependencies:
-      mdn-data: 2.0.30
+      mdn-data: 2.12.2
       source-map-js: 1.2.0
     dev: true
 
@@ -4845,8 +4845,8 @@ packages:
     engines: {node: '>= 0.10.0'}
     dev: true
 
-  /ember-eslint-parser/0.5.3_ug2igzfsn2htp6pvbk547j4y6y:
-    resolution: {integrity: sha512-FYsoiVcGUGDAybPq8X551hcs9NA0SDx77kfU1sHCTLYqfG4zQ0Rcy+lGxoaXaskH7sTf+Up3/oVyjx/+nJ3joA==}
+  /ember-eslint-parser/0.5.7_ug2igzfsn2htp6pvbk547j4y6y:
+    resolution: {integrity: sha512-d0nIQxC6TXsMebi7GcpH6meFDVhTUTYZpQ6Yg5n92+eZHqygAEKWZX55lLa49/wucBXS+Wadp2g6okPcN463aA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@babel/core': ^7.23.6
@@ -4861,6 +4861,8 @@ packages:
       content-tag: 2.0.3
       eslint-scope: 7.2.2
       html-tags: 3.3.1
+      mathml-tag-names: 2.1.3
+      svg-tags: 1.0.0
     transitivePeerDependencies:
       - eslint
     dev: true
@@ -5285,8 +5287,8 @@ packages:
       supports-color: 3.2.3
     dev: true
 
-  /eslint-plugin-ember/12.3.1_ug2igzfsn2htp6pvbk547j4y6y:
-    resolution: {integrity: sha512-Ew8E7R0inU7HSQZ7ChixLvv4y3wtyC++9DYBmAYyjtRoM+p/PwP2kUkyKYJTLi5v5IuSR+fS3IWtbswoq9bPyQ==}
+  /eslint-plugin-ember/12.3.3_ug2igzfsn2htp6pvbk547j4y6y:
+    resolution: {integrity: sha512-OXf3+XofsSMW/zGnp6B1cB2veC9zLzby8RGmHkxNwRHGLs/fYNVBbpwkmdZhzR8+IMN3wjtLR4iNLvkKOAT5bg==}
     engines: {node: 18.* || 20.* || >= 21}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -5296,8 +5298,8 @@ packages:
         optional: true
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
-      css-tree: 2.3.1
-      ember-eslint-parser: 0.5.3_ug2igzfsn2htp6pvbk547j4y6y
+      css-tree: 3.1.0
+      ember-eslint-parser: 0.5.7_ug2igzfsn2htp6pvbk547j4y6y
       ember-rfc176-data: 0.3.18
       eslint: 8.57.1
       eslint-utils: 3.0.0_eslint@8.57.1
@@ -7894,6 +7896,10 @@ packages:
       '@types/minimatch': 3.0.5
       minimatch: 3.1.2
 
+  /mathml-tag-names/2.1.3:
+    resolution: {integrity: sha512-APMBEanjybaPzUrfqU0IMU5I0AswKMH7k8OTLs0vvV4KZpExkTkY87nR/zpbuTPj+gARop7aGUbl11pnDfW6xg==}
+    dev: true
+
   /mdast-util-from-markdown/1.3.1:
     resolution: {integrity: sha512-4xTO/M8c82qBcnQc1tgpNtubGUW/Y1tBQ1B0i5CtSoelOLKFYlElIr3bvgREYYO5iRqbMY1YuqZng0GVOI8Qww==}
     dependencies:
@@ -7919,8 +7925,8 @@ packages:
       '@types/mdast': 3.0.15
     dev: true
 
-  /mdn-data/2.0.30:
-    resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
+  /mdn-data/2.12.2:
+    resolution: {integrity: sha512-IEn+pegP1aManZuckezWCO+XZQDplx1366JoVhTpMpBB1sPey/SbveZQUosKiKiGYjg1wH4pMlNgXbCiYgihQA==}
     dev: true
 
   /mdurl/1.0.1:
@@ -10540,6 +10546,10 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /svg-tags/1.0.0:
+    resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
+    dev: true
 
   /symlink-or-copy/1.3.1:
     resolution: {integrity: sha512-0K91MEXFpBUaywiwSSkmKjnGcasG/rVBXFLJz5DrgGabpYD6N+3yZrfD6uUIfpuTu65DZLHi7N8CizHc07BPZA==}
