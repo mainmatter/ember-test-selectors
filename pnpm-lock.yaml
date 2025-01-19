@@ -31,7 +31,7 @@ specifiers:
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.8.2
-  prettier: 2.8.8
+  prettier: 3.4.2
   qunit: 2.19.4
   qunit-dom: 3.4.0
   release-it: 14.14.3
@@ -66,12 +66,12 @@ devDependencies:
   eslint-config-prettier: 9.1.0_eslint@8.57.1
   eslint-config-simplabs: 0.4.0_eslint@8.57.1
   eslint-plugin-ember: 12.3.3_ug2igzfsn2htp6pvbk547j4y6y
-  eslint-plugin-prettier: 4.2.1_o6cgegp6polyisa35v7yglocei
+  eslint-plugin-prettier: 4.2.1_fk7o3c5pt3h7eopazq5wm6qiku
   eslint-plugin-qunit: 8.1.2_eslint@8.57.1
   lerna-changelog: 2.2.0
   loader.js: 4.7.0
   mocha: 10.8.2
-  prettier: 2.8.8
+  prettier: 3.4.2
   qunit: 2.19.4
   qunit-dom: 3.4.0
   release-it: 14.14.3
@@ -5306,7 +5306,7 @@ packages:
       - '@babel/core'
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_o6cgegp6polyisa35v7yglocei:
+  /eslint-plugin-prettier/4.2.1_fk7o3c5pt3h7eopazq5wm6qiku:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -5319,7 +5319,7 @@ packages:
     dependencies:
       eslint: 8.57.1
       eslint-config-prettier: 9.1.0_eslint@8.57.1
-      prettier: 2.8.8
+      prettier: 3.4.2
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -9180,6 +9180,12 @@ packages:
   /prettier/2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
