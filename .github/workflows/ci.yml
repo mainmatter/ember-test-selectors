@@ -26,7 +26,7 @@ jobs:
           node-version: 22.x
           cache: pnpm
       - run: pnpm install
-      - run: pnpm run lint
+      - run: pnpm lint
 
   test:
     name: Node Tests
@@ -45,8 +45,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
       - run: pnpm install
-      - run: pnpm run test:node
-        working-directory: node-tests
+      - run: pnpm test:node
 
   ember-try-scenarios:
     name: Ember Tests (${{ matrix.try-scenario }})
@@ -83,8 +82,8 @@ jobs:
 
       - run: pnpm install
       - run: pnpm ember try:one ${{ matrix.try-scenario }} --skip-cleanup --- echo "${{ matrix.try-scenario }} installed"
-        working-directory: ember-test-selectors
+        working-directory: tests/classic-app
       - run: pnpm test:keep
-        working-directory: ember-test-selectors
+        working-directory: tests/classic-app
       - run: pnpm test:strip
-        working-directory: ember-test-selectors
+        working-directory: tests/classic-app

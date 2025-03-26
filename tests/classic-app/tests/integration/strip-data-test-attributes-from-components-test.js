@@ -3,7 +3,7 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
-import config from 'dummy/config/environment';
+import config from 'classic-app/config/environment';
 
 module('StripTestSelectorsTransform plugin', function (hooks) {
   setupRenderingTest(hooks);
