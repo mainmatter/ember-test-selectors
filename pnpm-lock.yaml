@@ -6,7 +6,17 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      lerna-changelog:
+        specifier: 2.2.0
+        version: 2.2.0
+      release-it:
+        specifier: 14.14.3
+        version: 14.14.3(encoding@0.1.13)
+      release-it-lerna-changelog:
+        specifier: 4.0.1
+        version: 4.0.1(release-it@14.14.3(encoding@0.1.13))
 
   ember-test-selectors:
     dependencies:
@@ -20,60 +30,6 @@ importers:
         specifier: ^5.1.2
         version: 5.1.2
     devDependencies:
-      '@babel/core':
-        specifier: 7.26.0
-        version: 7.26.0
-      '@ember/optional-features':
-        specifier: 2.2.0
-        version: 2.2.0
-      '@ember/test-helpers':
-        specifier: 2.9.4
-        version: 2.9.4(@babel/core@7.26.0)(ember-source@4.12.4(@babel/core@7.26.0)(@glimmer/component@1.1.2(@babel/core@7.26.0))(webpack@5.97.1))
-      '@embroider/test-setup':
-        specifier: 1.8.3
-        version: 1.8.3
-      broccoli-stew:
-        specifier: 3.0.0
-        version: 3.0.0
-      ember-auto-import:
-        specifier: 2.10.0
-        version: 2.10.0(webpack@5.97.1)
-      ember-cli:
-        specifier: 4.12.3
-        version: 4.12.3(handlebars@4.7.8)(underscore@1.13.7)
-      ember-cli-dependency-checker:
-        specifier: 3.3.3
-        version: 3.3.3(ember-cli@4.12.3(handlebars@4.7.8)(underscore@1.13.7))
-      ember-cli-htmlbars:
-        specifier: 6.3.0
-        version: 6.3.0
-      ember-cli-inject-live-reload:
-        specifier: 2.1.0
-        version: 2.1.0
-      ember-disable-prototype-extensions:
-        specifier: 1.1.3
-        version: 1.1.3
-      ember-load-initializers:
-        specifier: 2.1.2
-        version: 2.1.2(@babel/core@7.26.0)
-      ember-maybe-import-regenerator:
-        specifier: 1.0.0
-        version: 1.0.0
-      ember-qunit:
-        specifier: 8.1.1
-        version: 8.1.1(@ember/test-helpers@2.9.4(@babel/core@7.26.0)(ember-source@4.12.4(@babel/core@7.26.0)(@glimmer/component@1.1.2(@babel/core@7.26.0))(webpack@5.97.1)))(ember-source@4.12.4(@babel/core@7.26.0)(@glimmer/component@1.1.2(@babel/core@7.26.0))(webpack@5.97.1))(qunit@2.19.4)
-      ember-resolver:
-        specifier: 8.1.0
-        version: 8.1.0(@babel/core@7.26.0)
-      ember-source:
-        specifier: 4.12.4
-        version: 4.12.4(@babel/core@7.26.0)(@glimmer/component@1.1.2(@babel/core@7.26.0))(webpack@5.97.1)
-      ember-source-channel-url:
-        specifier: 3.0.0
-        version: 3.0.0(encoding@0.1.13)
-      ember-try:
-        specifier: 3.0.0
-        version: 3.0.0(encoding@0.1.13)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -92,30 +48,9 @@ importers:
       eslint-plugin-qunit:
         specifier: 8.1.2
         version: 8.1.2(eslint@8.57.1)
-      lerna-changelog:
-        specifier: 2.2.0
-        version: 2.2.0
-      loader.js:
-        specifier: 4.7.0
-        version: 4.7.0
       prettier:
         specifier: 2.8.8
         version: 2.8.8
-      qunit:
-        specifier: 2.19.4
-        version: 2.19.4
-      qunit-dom:
-        specifier: 3.4.0
-        version: 3.4.0
-      release-it:
-        specifier: 14.14.3
-        version: 14.14.3(encoding@0.1.13)
-      release-it-lerna-changelog:
-        specifier: 4.0.1
-        version: 4.0.1(release-it@14.14.3(encoding@0.1.13))
-      webpack:
-        specifier: 5.97.1
-        version: 5.97.1
 
   tests/classic-app:
     devDependencies:
@@ -203,9 +138,6 @@ importers:
       eslint-plugin-qunit:
         specifier: 8.1.2
         version: 8.1.2(eslint@8.57.1)
-      lerna-changelog:
-        specifier: 2.2.0
-        version: 2.2.0
       loader.js:
         specifier: 4.7.0
         version: 4.7.0
@@ -218,12 +150,6 @@ importers:
       qunit-dom:
         specifier: 3.4.0
         version: 3.4.0
-      release-it:
-        specifier: 14.14.3
-        version: 14.14.3(encoding@0.1.13)
-      release-it-lerna-changelog:
-        specifier: 4.0.1
-        version: 4.0.1(release-it@14.14.3(encoding@0.1.13))
       webpack:
         specifier: 5.97.1
         version: 5.97.1
@@ -7480,7 +7406,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.4
+      debug: 4.4.0(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -11846,7 +11772,7 @@ snapshots:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.4.0(supports-color@8.1.1)
       get-uri: 3.0.2
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.1
@@ -12065,7 +11991,7 @@ snapshots:
   proxy-agent@5.0.0:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.4.0(supports-color@8.1.1)
       http-proxy-agent: 4.0.1
       https-proxy-agent: 5.0.1
       lru-cache: 5.1.1
@@ -12710,7 +12636,7 @@ snapshots:
   socks-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.4.0(supports-color@8.1.1)
       socks: 2.8.4
     transitivePeerDependencies:
       - supports-color
@@ -13320,7 +13246,7 @@ snapshots:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.5
+      semver: 7.7.1
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
 
