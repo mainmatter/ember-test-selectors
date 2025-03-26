@@ -15,7 +15,7 @@
     "test": "pnpm --filter '*' test",
     "test:all": "pnpm --filter '*' test:all",
     "test:keep": "pnpm --filter '*' test:keep",
-    "test:node": "pnpm --filter '*' test:node",
-    "test:strip": "pnpm --filter '*' test:strip"
+    "test:strip": "pnpm --filter '*' test:strip",
+    "test:node": "pnpm --filter 'node-tests' test"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "name": "node-tests",
+  "private": true,
+  "description": "Enabling better Test selectors in Ember.js applications.",
+  "license": "MIT",
+  "author": "Mainmatter GmbH",
+  "repository": "https://github.com/mainmatter/ember-test-selectors",
+  "scripts": {
+    "lint": "eslint . --cache",
+    "test": "mocha ."
+  },
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-simplabs": "0.4.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "mocha": "10.8.2",
+    "prettier": "2.8.8"
+  }
+}

@@ -46,7 +46,7 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm run test:node
-        working-directory: ember-test-selectors
+        working-directory: node-tests
 
   ember-try-scenarios:
     name: Ember Tests (${{ matrix.try-scenario }})

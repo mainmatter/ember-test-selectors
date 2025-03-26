@@ -3,12 +3,12 @@ let assert = require('assert');
 
 let babel7 = require('@babel/core');
 
-let StripDataTestPropertiesPlugin6 = require('../strip-data-test-properties-plugin6');
+let StripDataTestPropertiesPlugin6 = require('../ember-test-selectors/strip-data-test-properties-plugin6');
 
 function testFixture(name) {
   it(`fixture: ${name}`, function () {
-    let fixturePath = `${__dirname}/fixtures/${name}/fixture.js`;
-    let expectedPath = `${__dirname}/fixtures/${name}/expected7.js`;
+    let fixturePath = `${__dirname}/fixtures/${name}/fixture.mjs`;
+    let expectedPath = `${__dirname}/fixtures/${name}/expected7.mjs`;
 
     let expected = fs.readFileSync(expectedPath, 'utf8').replace(/\r\n/g, '\n');
 
