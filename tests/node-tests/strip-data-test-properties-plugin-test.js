@@ -3,7 +3,7 @@ let assert = require('assert');
 
 let babel7 = require('@babel/core');
 
-let StripDataTestPropertiesPlugin6 = require('../ember-test-selectors/strip-data-test-properties-plugin6');
+let StripDataTestPropertiesPlugin6 = require('../../ember-test-selectors/strip-data-test-properties-plugin6');
 
 function testFixture(name) {
   it(`fixture: ${name}`, function () {
