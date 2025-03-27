@@ -14,7 +14,8 @@
   "dependencies": {
     "calculate-cache-key-for-tree": "^2.0.0",
     "ember-cli-babel": "^7.26.4",
-    "ember-cli-version-checker": "^5.1.2"
+    "ember-cli-version-checker": "^5.1.2",
+    "strip-test-selectors": "workspace:*"
   },
   "devDependencies": {
     "eslint": "8.57.1",
