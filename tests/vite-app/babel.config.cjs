@@ -3,6 +3,8 @@ const {
   templateCompatSupport,
 } = require('@embroider/compat/babel');
 
+const { stripPropertiesPlugin } = require('strip-test-selectors');
+ 
 module.exports = {
   plugins: [
     [
@@ -37,7 +39,8 @@ module.exports = {
         regenerator: false,
       },
     ],
-    ...babelCompatSupport(),
+    ...babelCompatSupport(), 
+    stripPropertiesPlugin(),
   ],
 
   generatorOpts: {
