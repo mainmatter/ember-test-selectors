@@ -5,10 +5,6 @@
   "license": "MIT",
   "author": "Mainmatter GmbH",
   "repository": "https://github.com/mainmatter/ember-test-selectors",
-  "workspaces": [
-    "ember-test-selectors",
-    "tests/*"
-  ],
   "scripts": {
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
