@@ -18,8 +18,7 @@ module.exports = {
         ],
         transforms: [
           ...templateCompatSupport(),
-          //process.env.NODE_ENV === 'production' ? 'strip-test-selectors': ''
-          'strip-test-selectors'
+          ...(process.env.NODE_ENV === 'production' ? ['strip-test-selectors'] : []),
         ],
       },
     ],
@@ -39,8 +38,8 @@ module.exports = {
         regenerator: false,
       },
     ],
-    ...babelCompatSupport(), 
-    stripPropertiesPlugin(),
+    ...babelCompatSupport(),
+    ...(process.env.NODE_ENV === 'production' ? [stripPropertiesPlugin()] : []),
   ],
 
   generatorOpts: {

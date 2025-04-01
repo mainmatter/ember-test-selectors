@@ -10,7 +10,7 @@ export default class WithProperties extends Component {
   };
 
   <template>
-    <aside>
+    <div>
       <p data-test-greeting-from-with-properties>Hello from GJS with properties!</p>
       <ul>
         <li>{{this.foo}}</li>
@@ -19,6 +19,6 @@ export default class WithProperties extends Component {
         <li>{{this.data-test-foo}} (should not show if <code>stripPropertiesPlugin</code> is used)</li>
         <li>{{this.data-test-foobar}} (should not show if <code>stripPropertiesPlugin</code> is used)</li>
       </ul>
-    </aside>
+    </div>
   </template>
 }
