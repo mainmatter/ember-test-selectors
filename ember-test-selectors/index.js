@@ -118,7 +118,7 @@ module.exports = {
   _buildStripPlugin() {
     return {
       name: 'strip-test-selectors',
-      plugin: StripTestSelectors.transform,
+      plugin: StripTestSelectors,
       baseDir: StripTestSelectors.baseDir,
       cacheKey: StripTestSelectors.cacheKey,
     };

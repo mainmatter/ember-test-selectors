@@ -14,7 +14,11 @@ module.exports = {
           'ember-cli-htmlbars-inline-precompile',
           'htmlbars-inline-precompile',
         ],
-        transforms: [...templateCompatSupport()],
+        transforms: [
+          ...templateCompatSupport(),
+          //process.env.NODE_ENV === 'production' ? 'strip-test-selectors': ''
+          'strip-test-selectors'
+        ],
       },
     ],
     [
