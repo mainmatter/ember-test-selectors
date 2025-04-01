@@ -156,6 +156,9 @@ importers:
 
   tests/node-tests:
     devDependencies:
+      ember-test-selectors:
+        specifier: workspace:*
+        version: link:../../ember-test-selectors
       eslint:
         specifier: 8.57.1
         version: 8.57.1
