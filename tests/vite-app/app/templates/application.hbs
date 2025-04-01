@@ -2,4 +2,8 @@
 
 {{outlet}}
 
-<TemplateOnlyGreeting data-test-greeting-from-app />
+<ContentBlockGreeting data-test-greeting-from-app="block">
+  Hello from block
+</ContentBlockGreeting>
+<TemplateOnlyGreeting data-test-greeting-from-app="hbs" />
+<TemplateTagGreeting data-test-greeting-from-app="gjs" />

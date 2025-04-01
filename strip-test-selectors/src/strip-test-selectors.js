@@ -8,10 +8,9 @@ function isTestSelector(attribute) {
   return TEST_SELECTOR_PREFIX.test(attribute);
 }
 
-module.exports = function () {
+function StripTestSelectorsPlugin() {
   return {
     name: 'strip-test-selectors',
-
     visitor: {
       ElementNode(node) {
         node.attributes = node.attributes.filter(attribute => !isTestSelector(attribute.name));
@@ -28,12 +27,14 @@ module.exports = function () {
       },
     },
   };
-};
+}
 
-module.exports.baseDir = function () {
+StripTestSelectorsPlugin.baseDir = function () {
   return __dirname;
 };
 
-module.exports.cacheKey = function () {
+StripTestSelectorsPlugin.cacheKey = function () {
   return 'strip-test-selectors';
 };
+
+module.exports = StripTestSelectorsPlugin;
