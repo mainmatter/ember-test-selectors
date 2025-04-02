@@ -291,9 +291,6 @@ importers:
       ember-template-lint:
         specifier: ^6.1.0
         version: 6.1.0
-      ember-welcome-page:
-        specifier: ^7.0.2
-        version: 7.0.2
       eslint:
         specifier: ^9.23.0
         version: 9.23.0
@@ -309,6 +306,9 @@ importers:
       eslint-plugin-qunit:
         specifier: ^8.1.2
         version: 8.1.2(eslint@9.23.0)
+      execa:
+        specifier: ^9.5.2
+        version: 9.5.2
       globals:
         specifier: ^15.15.0
         version: 15.15.0
@@ -324,6 +324,9 @@ importers:
       qunit-dom:
         specifier: ^3.4.0
         version: 3.4.0
+      strip-ansi:
+        specifier: ^7.1.0
+        version: 7.1.0
       strip-test-selectors:
         specifier: workspace:*
         version: link:../../strip-test-selectors
@@ -333,6 +336,9 @@ importers:
       stylelint-config-standard:
         specifier: ^36.0.1
         version: 36.0.1(stylelint@16.17.0)
+      tmp:
+        specifier: ^0.2.3
+        version: 0.2.3
       tracked-built-ins:
         specifier: ^3.4.0
         version: 3.4.0(@babel/core@7.26.10)
@@ -3434,10 +3440,6 @@ packages:
   ember-try@3.0.0:
     resolution: {integrity: sha512-ZYVKYWMnrHSD3vywo7rV76kPCOC9ATIEnGGG/PEKfCcFE0lB26jltRDnOrhORfLKq0JFp62fFxC/4940U+MwRQ==}
     engines: {node: 16.* || >= 18.*}
-
-  ember-welcome-page@7.0.2:
-    resolution: {integrity: sha512-TyaKxFIRXhODW5BTbqD/by0Gu8Z9B9AA1ki3Bzzm6fOj2b30Qlprtt+XUG52kS0zVNmxYj/WWoT0TsKiU61VOw==}
-    engines: {node: 14.* || 16.* || >= 18}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -11718,12 +11720,6 @@ snapshots:
       walk-sync: 2.2.0
     transitivePeerDependencies:
       - encoding
-      - supports-color
-
-  ember-welcome-page@7.0.2:
-    dependencies:
-      '@embroider/addon-shim': 1.9.0
-    transitivePeerDependencies:
       - supports-color
 
   emoji-regex@8.0.0: {}

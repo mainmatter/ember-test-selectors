@@ -6,7 +6,7 @@ export default class WithProperties extends Component {
   'metadata-test-foo' = 'metadata';
   'data-test-foo' = 'foo';
   'data-test-foobar' = () => {
-    return `${this['data-test-foo']}bar`
+    return `${this['data-test-foo']}bar`;
   };
 
   <template>
@@ -16,8 +16,14 @@ export default class WithProperties extends Component {
         <li>{{this.foo}}</li>
         <li>{{this.data-test}}</li>
         <li>{{this.metadata-test-foo}}</li>
-        <li>{{this.data-test-foo}} (should not show if <code>stripPropertiesPlugin</code> is used)</li>
-        <li>{{this.data-test-foobar}} (should not show if <code>stripPropertiesPlugin</code> is used)</li>
+        <li>{{this.data-test-foo}}
+          (should not show if
+          <code>stripPropertiesPlugin</code>
+          is used)</li>
+        <li>{{this.data-test-foobar}}
+          (should not show if
+          <code>stripPropertiesPlugin</code>
+          is used)</li>
       </ul>
     </div>
   </template>

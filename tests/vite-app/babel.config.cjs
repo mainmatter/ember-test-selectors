@@ -4,7 +4,12 @@ const {
 } = require('@embroider/compat/babel');
 
 const { stripPropertiesPlugin } = require('strip-test-selectors');
- 
+
+const falsyValues = ['false', '0', 'no', 'off'];
+const STRIP = process.env.STRIP_TEST_SELECTORS
+  ? !falsyValues.includes(process.env.STRIP_TEST_SELECTORS)
+  : process.env.NODE_ENV === 'production';
+
 module.exports = {
   plugins: [
     [
@@ -18,7 +23,7 @@ module.exports = {
         ],
         transforms: [
           ...templateCompatSupport(),
-          ...(process.env.NODE_ENV === 'production' ? ['strip-test-selectors'] : []),
+          ...(STRIP ? ['strip-test-selectors'] : []),
         ],
       },
     ],
@@ -39,7 +44,7 @@ module.exports = {
       },
     ],
     ...babelCompatSupport(),
-    ...(process.env.NODE_ENV === 'production' ? [stripPropertiesPlugin()] : []),
+    ...(STRIP ? [stripPropertiesPlugin()] : []),
   ],
 
   generatorOpts: {

@@ -24,7 +24,8 @@
     "lint:js:fix": "eslint . --fix",
     "start": "vite",
     "test": "concurrently \"pnpm:test:*\" --names \"test:\" --prefixColors auto",
-    "test:ember": "vite build --mode test && ember test --path dist"
+    "test:keep": "STRIP_TEST_SELECTORS=false vite build --mode test && ember test --path dist --filter=\"keep\"",
+    "test:strip": "vite build --mode test && ember test --path dist --filter=\"strip\""
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
@@ -64,14 +65,17 @@
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-n": "^17.16.2",
     "eslint-plugin-qunit": "^8.1.2",
+    "execa": "^9.5.2",
     "globals": "^15.15.0",
     "prettier": "^3.5.3",
     "prettier-plugin-ember-template-tag": "^2.0.4",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
+    "strip-ansi": "^7.1.0",
     "strip-test-selectors": "workspace:*",
     "stylelint": "^16.16.0",
     "stylelint-config-standard": "^36.0.1",
+    "tmp": "^0.2.3",
     "tracked-built-ins": "^3.4.0",
     "vite": "^6.0.0"
   },
