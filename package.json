@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "lerna-changelog": "2.2.0",
-    "release-it": "14.14.3",
+    "release-it": "18.1.2",
     "release-it-lerna-changelog": "4.0.1"
   },
   "changelog": {
