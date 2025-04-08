@@ -14,7 +14,6 @@ module.exports = function () {
     return {
       usePnpm: true,
       command: 'pnpm test',
-      useVersionCompatibility: true,
       scenarios: [
         {
           name: 'ember-lts-3.8',

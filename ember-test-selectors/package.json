@@ -1,0 +1,41 @@
+{
+  "name": "ember-test-selectors",
+  "version": "7.0.0",
+  "description": "Enabling better Test selectors in Ember.js applications.",
+  "keywords": [
+    "ember-addon"
+  ],
+  "license": "MIT",
+  "author": "Mainmatter GmbH",
+  "repository": "https://github.com/mainmatter/ember-test-selectors",
+  "scripts": {
+    "lint": "eslint . --cache"
+  },
+  "dependencies": {
+    "calculate-cache-key-for-tree": "^2.0.0",
+    "ember-cli-babel": "^7.26.4",
+    "ember-cli-version-checker": "^5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-simplabs": "0.4.0",
+    "eslint-plugin-ember": "12.3.3",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-qunit": "8.1.2",
+    "prettier": "2.8.8"
+  },
+  "engines": {
+    "node": "18.* || 20.* || >= 22.*"
+  },
+  "ember": {
+    "edition": "octane"
+  },
+  "ember-addon": {
+    "before": [
+      "ember-cli-htmlbars",
+      "ember-cli-htmlbars-inline-precompile"
+    ],
+    "configPath": "tests/dummy/config"
+  }
+}

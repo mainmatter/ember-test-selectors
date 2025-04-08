@@ -16,45 +16,36 @@ jobs:
   lint:
     name: Linting
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4.2.2
-
       - uses: pnpm/action-setup@v4.0.0
         with:
           version: ${{ env.PNPM_VERSION }}
-
       - uses: actions/setup-node@v4.1.0
         with:
           node-version: 22.x
           cache: pnpm
-
       - run: pnpm install
-      - run: pnpm run lint
+      - run: pnpm lint
 
   test:
     name: Node Tests
     runs-on: ${{ matrix.os }}
-
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
         node-version: [18.x, 20.x, 22.x]
-
     steps:
       - uses: actions/checkout@v4.2.2
-
       - uses: pnpm/action-setup@v4.0.0
         with:
           version: ${{ env.PNPM_VERSION }}
-
       - uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
-
       - run: pnpm install
-      - run: pnpm run test:node
+      - run: pnpm test:node
 
   ember-try-scenarios:
     name: Ember Tests (${{ matrix.try-scenario }})
@@ -81,11 +72,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.2.2
-
       - uses: pnpm/action-setup@v4.0.0
         with:
           version: ${{ env.PNPM_VERSION }}
-
       - uses: actions/setup-node@v4.1.0
         with:
           node-version: 22.x
@@ -93,5 +82,8 @@ jobs:
 
       - run: pnpm install
       - run: pnpm ember try:one ${{ matrix.try-scenario }} --skip-cleanup --- echo "${{ matrix.try-scenario }} installed"
+        working-directory: tests/classic-app
       - run: pnpm test:keep
+        working-directory: tests/classic-app
       - run: pnpm test:strip
+        working-directory: tests/classic-app

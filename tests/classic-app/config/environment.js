@@ -4,7 +4,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'dummy',
+    modulePrefix: 'classic-app',
     environment,
     rootURL: '/',
     locationType: 'auto',
