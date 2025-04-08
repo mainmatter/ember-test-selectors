@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "eslint": "8.57.1",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.1.1",
     "eslint-config-simplabs": "0.4.0",
     "eslint-plugin-ember": "12.5.0",
     "eslint-plugin-prettier": "4.2.1",
