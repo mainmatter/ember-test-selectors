@@ -15,8 +15,8 @@ importers:
         specifier: 14.14.3
         version: 14.14.3(encoding@0.1.13)
       release-it-lerna-changelog:
-        specifier: 4.0.1
-        version: 4.0.1(release-it@14.14.3(encoding@0.1.13))
+        specifier: 5.0.0
+        version: 5.0.0(release-it@14.14.3(encoding@0.1.13))
 
   ember-test-selectors:
     dependencies:
@@ -3941,6 +3941,9 @@ packages:
   lodash._isiterateecall@3.0.9:
     resolution: {integrity: sha512-De+ZbrMu6eThFti/CSzhRvTKMgQToLxbij58LMfM8JnYDNSOjkjTCIaa8ixglOeGh2nyPlakbt5bJWJ7gvpYlQ==}
 
+  lodash._reinterpolate@3.0.0:
+    resolution: {integrity: sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==}
+
   lodash.assign@3.2.0:
     resolution: {integrity: sha512-/VVxzgGBmbphasTg51FrztxQJ/VgAUpol6zmJuSVSGcNg4g7FA4z7rQV8Ovr9V3vFBNWZhvKWHfpAytjTVUfFA==}
 
@@ -3977,6 +3980,13 @@ packages:
 
   lodash.restparam@3.6.1:
     resolution: {integrity: sha512-L4/arjjuq4noiUJpt3yS6KIKDtJwNe2fIYgMqyYYKoeIfV1iEqvPwhCx23o+R9dzouGihDAPN1dTIRWa7zk8tw==}
+
+  lodash.template@4.5.0:
+    resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
+
+  lodash.templatesettings@4.2.0:
+    resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
 
   lodash.uniq@4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
@@ -4988,12 +4998,12 @@ packages:
     resolution: {integrity: sha512-cnE+y8bz4NhMjISKbgeVJtqNbtf5QpjZP+Bslo+UqkIt9QPnX9q095eiRRASJG1/tz6dlNr6Z5NsBiWYokp6EQ==}
     hasBin: true
 
-  release-it-lerna-changelog@4.0.1:
-    resolution: {integrity: sha512-PBE72pVfWLyUp3JN/qyAglhKIiDOPO2zdupT8JQrJmW+wi3ZERtr0IFSGNmczFcMnMnTFnzpuJGpTPAoqQToVg==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >= 16}
+  release-it-lerna-changelog@5.0.0:
+    resolution: {integrity: sha512-s/rHzwAwp878bivWKsJKNya9SRVKYZjgpyyGzg5ddBKZY5u5lhTWhxHtld7mHTRg4azIN7YypPH3rGaOfVmNVw==}
+    engines: {node: ^14.13.1 || >= 16}
     deprecated: This package has been renamed to @release-it-plugins/lerna-changelog
     peerDependencies:
-      release-it: ^14.0.0
+      release-it: ^14.0.0 || ^15.1.3
 
   release-it@14.14.3:
     resolution: {integrity: sha512-CU3ySDOzkcdpaJmzKG7QXhimWVOkh9dVqVMr5tBWXhAd5oWvUdH8Lo4Tq37eYOhcVLxoukRR2vrY8mt7wSULSw==}
@@ -10990,6 +11000,8 @@ snapshots:
 
   lodash._isiterateecall@3.0.9: {}
 
+  lodash._reinterpolate@3.0.0: {}
+
   lodash.assign@3.2.0:
     dependencies:
       lodash._baseassign: 3.2.0
@@ -11026,6 +11038,15 @@ snapshots:
   lodash.omit@4.5.0: {}
 
   lodash.restparam@3.6.1: {}
+
+  lodash.template@4.5.0:
+    dependencies:
+      lodash._reinterpolate: 3.0.0
+      lodash.templatesettings: 4.2.0
+
+  lodash.templatesettings@4.2.0:
+    dependencies:
+      lodash._reinterpolate: 3.0.0
 
   lodash.uniq@4.5.0: {}
 
@@ -12180,10 +12201,11 @@ snapshots:
     dependencies:
       jsesc: 3.0.2
 
-  release-it-lerna-changelog@4.0.1(release-it@14.14.3(encoding@0.1.13)):
+  release-it-lerna-changelog@5.0.0(release-it@14.14.3(encoding@0.1.13)):
     dependencies:
       execa: 5.1.1
       lerna-changelog: 2.2.0
+      lodash.template: 4.5.0
       mdast-util-from-markdown: 1.3.1
       release-it: 14.14.3(encoding@0.1.13)
       tmp: 0.2.3
