@@ -5,10 +5,8 @@ const {
 
 const { stripPropertiesPlugin } = require('strip-test-selectors');
 
-const falsyValues = ['false', '0', 'no', 'off'];
-const STRIP = process.env.STRIP_TEST_SELECTORS
-  ? !falsyValues.includes(process.env.STRIP_TEST_SELECTORS)
-  : process.env.NODE_ENV === 'production';
+const { mode } = require('minimist')(process.argv.slice(2));
+const STRIP = process.env.NODE_ENV === 'production' && mode !== 'test';
 
 module.exports = {
   plugins: [

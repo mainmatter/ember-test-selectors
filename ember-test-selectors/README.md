@@ -23,9 +23,11 @@ More information on why that is useful are available on our
 Compatibility
 ------------------------------------------------------------------------------
 
-- Ember 3.8 or above
+- Ember 3.8 to Ember 4.12
 - Ember CLI 3.8 or above
-- Node.js 12 or above
+- Node.js 18 or above
+
+If your Ember app is an Embroider+Vite app, you can use [strip-test-selectors](https://github.com/mainmatter/ember-test-selectors/blob/master/strip-test-selectors/README.md) classic addon, which supports Ember 3.28 or above.
 
 
 Installation
@@ -100,12 +102,13 @@ was triggered by `ember test`. That means that if you use
 `ember test --environment=production` the test selectors will still work, but
 for `ember build -prod` they will be stripped out.
 
+
 License
 ------------------------------------------------------------------------------
 
 ember-test-selectors is developed by and &copy;
 [Mainmatter GmbH](http://mainmatter.com) and contributors. It is released under the
-[MIT License](https://github.com/mainmatter/ember-simple-auth/blob/master/LICENSE).
+[MIT License](https://github.com/mainmatter/ember-test-selectors/blob/master/LICENSE).
 
 ember-test-selectors is not an official part of [Ember.js](http://emberjs.com)
 and is not maintained by the Ember.js Core Team.

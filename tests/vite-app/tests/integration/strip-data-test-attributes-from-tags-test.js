@@ -12,7 +12,7 @@ module('StripTestSelectorsTransform plugin > from tags', function (hooks) {
    * In the present app, we strip when Vite does a production build or if STRIP_TEST_SELECTORS is explicitly true.
    * It means part of the tests in this modules fail in dev mode (http://localhost:4200/tests/), this is expected.
    */
-  module('strip', function () {
+  module('it strips', function () {
     test('it strips data-test-* attributes from HTML tags', async function (assert) {
       await render(hbs`<span data-test-id="my-id" ></span>`);
 
@@ -70,7 +70,7 @@ module('StripTestSelectorsTransform plugin > from tags', function (hooks) {
    * The conditions to strip data-test-* depend on the Babel configuration.
    * In the present app, we keep when Vite does a dev build or if STRIP_TEST_SELECTORS is explicitly false.
    */
-  module('keep', function () {
+  module('it keeps', function () {
     test('it does not strip data-test-* attributes from HTML tags', async function (assert) {
       await render(hbs`<span data-test-id="my-id" ></span>`);
       assert.dom('span').exists('the span is present');

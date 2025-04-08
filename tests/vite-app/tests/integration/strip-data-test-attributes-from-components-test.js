@@ -2,7 +2,6 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
-import config from 'vite-app/config/environment';
 
 module(
   'StripTestSelectorsTransform plugin > from components',
@@ -15,9 +14,8 @@ module(
      * In the present app, we strip when Vite does a production build or if STRIP_TEST_SELECTORS is explicitly true.
      * It means part of the tests in this modules fail in dev mode (http://localhost:4200/tests/), this is expected.
      */
-    module('strip', function () {
+    module('it strips', function () {
       test('it strips data-test-* attributes from components', async function (assert) {
-        console.log(config);
         await render(hbs`<TemplateOnlyGreeting data-test-first="foobar" />`);
         assert.dom('div').doesNotHaveAttribute('data-test-first');
       });
@@ -61,7 +59,7 @@ module(
      * The conditions to strip data-test-* depend on the Babel configuration.
      * In the present app, we keep when Vite does a dev build or if STRIP_TEST_SELECTORS is explicitly false.
      */
-    module('keep', function () {
+    module('it keeps', function () {
       test('it does not strip data-test-* attributes from components', async function (assert) {
         await render(hbs`<TemplateOnlyGreeting data-test-first="foobar" />`);
         assert.dom('div').hasAttribute('data-test-first', 'foobar');
