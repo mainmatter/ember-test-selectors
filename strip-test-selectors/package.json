@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "Mainmatter GmbH",
   "repository": "https://github.com/mainmatter/ember-test-selectors",
+  "main": "index.js",
   "files": [
     "src"
   ],

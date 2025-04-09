@@ -1,0 +1,32 @@
+.dependabot/
+.github/
+/bower_components
+/config/
+/dist
+/tests
+/node-tests
+/tmp
+**/.gitkeep
+*.tgz
+.bowerrc
+.editorconfig
+.ember-cli
+.eslint*
+.prettierrc*
+.gitignore
+.watchmanconfig
+.travis.yml
+bower.json
+ember-cli-build.js
+pnpm-lock.yaml
+RELEASE.md
+testem.js
+yarn.lock
+
+# ember-try
+.node_modules.ember-try/
+bower.json.ember-try
+package.json.ember-try
+
+# IDE files
+.idea/
