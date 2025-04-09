@@ -11,6 +11,7 @@
 /node-tests/multidep_modules
 
 # misc
+.env
 /.eslintcache
 /.sass-cache
 /connect.lock
