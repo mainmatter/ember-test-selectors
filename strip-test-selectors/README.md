@@ -109,7 +109,7 @@ module.exports = {
         enableLegacyModules: [...],
         transforms: [
           ...templateCompatSupport(),
-          // Template plugin:
+          // AST Transform for templates:
           // The default export of strip-test-selectors is the plugin that strips
           // data-test-* from ember templates.
           ...(process.env.STRIP_TEST_SELECTORS ? ['strip-test-selectors'] : []),
@@ -119,7 +119,7 @@ module.exports = {
     ...babelCompatSupport(),
     // JS plugin:
     // This is the additional plugin exported by strip-test-selectors that strips
-    // data-test-* from JS object properties. You don't have to import it and 
+    // data-test-* from JS component properties. You don't have to import it and 
     // configure it if you don't need this behavior.
     ...(process.env.STRIP_TEST_SELECTORS ? [stripPropertiesPlugin()] : []),
   ],
