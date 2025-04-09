@@ -4,6 +4,7 @@
 
 const VersionChecker = require('ember-cli-version-checker');
 const cacheKeyForTree = require('calculate-cache-key-for-tree');
+const StripTestSelectors = require('strip-test-selectors');
 
 module.exports = {
   name: 'ember-test-selectors',
@@ -72,13 +73,13 @@ module.exports = {
         appOrParent.options.babel6 = appOrParent.options.babel6 || {};
         appOrParent.options.babel6.plugins = appOrParent.options.babel6.plugins || [];
         appOrParent.options.babel6.plugins.push(
-          require.resolve('./strip-data-test-properties-plugin6')
+          StripTestSelectors.stripDataTestPropertiesPlugin6Path
         );
       } else if (checker.satisfies('^7.0.0') || checker.satisfies('^8.0.0')) {
         appOrParent.options.babel = appOrParent.options.babel || {};
         appOrParent.options.babel.plugins = appOrParent.options.babel.plugins || [];
         appOrParent.options.babel.plugins.push(
-          require.resolve('./strip-data-test-properties-plugin6')
+          StripTestSelectors.stripDataTestPropertiesPlugin6Path
         );
       } else {
         this.ui.writeWarnLine(
@@ -115,13 +116,11 @@ module.exports = {
   },
 
   _buildStripPlugin() {
-    let StripTestSelectorsTransform = require('./strip-test-selectors');
-
     return {
       name: 'strip-test-selectors',
-      plugin: StripTestSelectorsTransform,
-      baseDir: StripTestSelectorsTransform.baseDir,
-      cacheKey: StripTestSelectorsTransform.cacheKey,
+      plugin: StripTestSelectors,
+      baseDir: StripTestSelectors.baseDir,
+      cacheKey: StripTestSelectors.cacheKey,
     };
   },
 };

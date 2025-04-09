@@ -1,3 +1,4 @@
 packages:
   - 'ember-test-selectors'
+  - 'strip-test-selectors'
   - 'tests/*'
