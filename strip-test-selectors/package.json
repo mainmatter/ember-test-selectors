@@ -1,6 +1,6 @@
 {
   "name": "strip-test-selectors",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Enabling better Test selectors in Ember.js applications.",
   "license": "MIT",
   "author": "Mainmatter GmbH",

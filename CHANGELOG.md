@@ -1,5 +1,23 @@
 # Changelog
 
+## Release (2025-04-09)
+
+* ember-test-selectors 7.1.0 (minor)
+* strip-test-selectors 0.1.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-test-selectors`, `strip-test-selectors`
+  * [#1294](https://github.com/mainmatter/ember-test-selectors/pull/1294) Plugin for Vite ([@BlueCutOfficial](https://github.com/BlueCutOfficial))
+
+#### :house: Internal
+* Other
+  * [#1300](https://github.com/mainmatter/ember-test-selectors/pull/1300) Move from release-it to release-plan ([@BlueCutOfficial](https://github.com/BlueCutOfficial))
+* `ember-test-selectors`
+  * [#1289](https://github.com/mainmatter/ember-test-selectors/pull/1289) Monorepo structure ([@BlueCutOfficial](https://github.com/BlueCutOfficial))
+
+#### Committers: 1
+- Marine Dunstetter ([@BlueCutOfficial](https://github.com/BlueCutOfficial))
+
 
 ## v7.0.0 (2024-07-25)
 

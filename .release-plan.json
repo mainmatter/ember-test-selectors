@@ -1,0 +1,39 @@
+{
+  "solution": {
+    "ember-test-selectors": {
+      "impact": "minor",
+      "oldVersion": "7.0.0",
+      "newVersion": "7.1.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Has dependency `workspace:*` on strip-test-selectors"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./ember-test-selectors/package.json"
+    },
+    "strip-test-selectors": {
+      "impact": "minor",
+      "oldVersion": "0.0.0",
+      "newVersion": "0.1.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        }
+      ],
+      "pkgJSONPath": "./strip-test-selectors/package.json"
+    }
+  },
+  "description": "## Release (2025-04-09)\n\n* ember-test-selectors 7.1.0 (minor)\n* strip-test-selectors 0.1.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-test-selectors`, `strip-test-selectors`\n  * [#1294](https://github.com/mainmatter/ember-test-selectors/pull/1294) Plugin for Vite ([@BlueCutOfficial](https://github.com/BlueCutOfficial))\n\n#### :house: Internal\n* Other\n  * [#1300](https://github.com/mainmatter/ember-test-selectors/pull/1300) Move from release-it to release-plan ([@BlueCutOfficial](https://github.com/BlueCutOfficial))\n* `ember-test-selectors`\n  * [#1289](https://github.com/mainmatter/ember-test-selectors/pull/1289) Monorepo structure ([@BlueCutOfficial](https://github.com/BlueCutOfficial))\n\n#### Committers: 1\n- Marine Dunstetter ([@BlueCutOfficial](https://github.com/BlueCutOfficial))\n"
+}
