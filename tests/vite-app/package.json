@@ -80,7 +80,7 @@
     "stylelint-config-standard": "^36.0.1",
     "tmp": "^0.2.3",
     "tracked-built-ins": "^3.4.0",
-    "vite": "^6.0.0"
+    "vite": "^6.3.4"
   },
   "engines": {
     "node": ">= 18"
