@@ -28,23 +28,23 @@ importers:
         version: link:../strip-test-selectors
     devDependencies:
       eslint:
-        specifier: 8.57.1
-        version: 8.57.1
+        specifier: 9.28.0
+        version: 9.28.0
       eslint-config-prettier:
         specifier: 10.1.5
-        version: 10.1.5(eslint@8.57.1)
+        version: 10.1.5(eslint@9.28.0)
       eslint-config-simplabs:
         specifier: 0.4.0
-        version: 0.4.0(eslint@8.57.1)
+        version: 0.4.0(eslint@9.28.0)
       eslint-plugin-ember:
         specifier: 12.5.0
-        version: 12.5.0(@babel/core@7.27.1)(eslint@8.57.1)
+        version: 12.5.0(@babel/core@7.27.1)(eslint@9.28.0)
       eslint-plugin-prettier:
         specifier: 5.4.1
-        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
+        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.3)
       eslint-plugin-qunit:
         specifier: 8.1.2
-        version: 8.1.2(eslint@8.57.1)
+        version: 8.1.2(eslint@9.28.0)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -52,17 +52,17 @@ importers:
   strip-test-selectors:
     devDependencies:
       eslint:
-        specifier: 8.57.1
-        version: 8.57.1
+        specifier: 9.28.0
+        version: 9.28.0
       eslint-config-prettier:
         specifier: 9.1.0
-        version: 9.1.0(eslint@8.57.1)
+        version: 9.1.0(eslint@9.28.0)
       eslint-config-simplabs:
         specifier: 0.4.0
-        version: 0.4.0(eslint@8.57.1)
+        version: 0.4.0(eslint@9.28.0)
       eslint-plugin-prettier:
         specifier: 5.4.1
-        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
+        version: 5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.3)
       prettier:
         specifier: 3.5.3
         version: 3.5.3
@@ -200,7 +200,7 @@ importers:
         version: 7.27.1
       '@babel/eslint-parser':
         specifier: ^7.26.10
-        version: 7.27.1(@babel/core@7.27.1)(eslint@9.27.0)
+        version: 7.27.1(@babel/core@7.27.1)(eslint@9.28.0)
       '@babel/plugin-transform-runtime':
         specifier: ^7.26.10
         version: 7.27.1(@babel/core@7.27.1)
@@ -296,19 +296,19 @@ importers:
         version: 3.0.0(encoding@0.1.13)
       eslint:
         specifier: ^9.23.0
-        version: 9.27.0
+        version: 9.28.0
       eslint-config-prettier:
         specifier: ^9.1.0
-        version: 9.1.0(eslint@9.27.0)
+        version: 9.1.0(eslint@9.28.0)
       eslint-plugin-ember:
         specifier: ^12.5.0
-        version: 12.5.0(@babel/core@7.27.1)(eslint@9.27.0)
+        version: 12.5.0(@babel/core@7.27.1)(eslint@9.28.0)
       eslint-plugin-n:
         specifier: ^17.16.2
-        version: 17.18.0(eslint@9.27.0)
+        version: 17.18.0(eslint@9.28.0)
       eslint-plugin-qunit:
         specifier: ^8.1.2
-        version: 8.1.2(eslint@9.27.0)
+        version: 8.1.2(eslint@9.28.0)
       execa:
         specifier: ^9.5.2
         version: 9.5.3
@@ -1262,6 +1262,10 @@ packages:
 
   '@eslint/js@9.27.0':
     resolution: {integrity: sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@eslint/js@9.28.0':
+    resolution: {integrity: sha512-fnqSjGWd/CoIp4EXIxWVK/sHA6DOHN4+8Ix2cX5ycOY7LG0UY8nHCU5pIp2eaE1Mc7Qd8kHspYNzYXT2ojPLzg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.6':
@@ -3680,8 +3684,8 @@ packages:
     deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
-  eslint@9.27.0:
-    resolution: {integrity: sha512-ixRawFQuMB9DZ7fjU3iGGganFDp3+45bPOdaRurcFHSXO1e/sYwUX/FtQZpLZJR6SjMoJH8hR2pPEAfDyCoU2Q==}
+  eslint@9.28.0:
+    resolution: {integrity: sha512-ocgh41VhRlf9+fVpe7QKzwLj9c92fDiqOj8Y3Sd4/ZmVA4Btx4PlUYPq4pp9JDyupkf1upbEXecxL2mwNV7jPQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     hasBin: true
     peerDependencies:
@@ -7413,19 +7417,11 @@ snapshots:
       eslint-visitor-keys: 2.1.0
       semver: 6.3.1
 
-  '@babel/eslint-parser@7.27.1(@babel/core@7.27.1)(eslint@8.57.1)':
+  '@babel/eslint-parser@7.27.1(@babel/core@7.27.1)(eslint@9.28.0)':
     dependencies:
       '@babel/core': 7.27.1
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
-      eslint: 8.57.1
-      eslint-visitor-keys: 2.1.0
-      semver: 6.3.1
-
-  '@babel/eslint-parser@7.27.1(@babel/core@7.27.1)(eslint@9.27.0)':
-    dependencies:
-      '@babel/core': 7.27.1
-      '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
-      eslint: 9.27.0
+      eslint: 9.28.0
       eslint-visitor-keys: 2.1.0
       semver: 6.3.1
 
@@ -8562,9 +8558,9 @@ snapshots:
       eslint: 8.57.1
       eslint-visitor-keys: 3.4.3
 
-  '@eslint-community/eslint-utils@4.7.0(eslint@9.27.0)':
+  '@eslint-community/eslint-utils@4.7.0(eslint@9.28.0)':
     dependencies:
-      eslint: 9.27.0
+      eslint: 9.28.0
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.1': {}
@@ -8614,6 +8610,8 @@ snapshots:
   '@eslint/js@8.57.1': {}
 
   '@eslint/js@9.27.0': {}
+
+  '@eslint/js@9.28.0': {}
 
   '@eslint/object-schema@2.1.6': {}
 
@@ -11381,23 +11379,10 @@ snapshots:
     transitivePeerDependencies:
       - eslint
 
-  ember-eslint-parser@0.5.9(@babel/core@7.27.1)(eslint@8.57.1):
+  ember-eslint-parser@0.5.9(@babel/core@7.27.1)(eslint@9.28.0):
     dependencies:
       '@babel/core': 7.27.1
-      '@babel/eslint-parser': 7.27.1(@babel/core@7.27.1)(eslint@8.57.1)
-      '@glimmer/syntax': 0.92.3
-      content-tag: 2.0.3
-      eslint-scope: 7.2.2
-      html-tags: 3.3.1
-      mathml-tag-names: 2.1.3
-      svg-tags: 1.0.0
-    transitivePeerDependencies:
-      - eslint
-
-  ember-eslint-parser@0.5.9(@babel/core@7.27.1)(eslint@9.27.0):
-    dependencies:
-      '@babel/core': 7.27.1
-      '@babel/eslint-parser': 7.27.1(@babel/core@7.27.1)(eslint@9.27.0)
+      '@babel/eslint-parser': 7.27.1(@babel/core@7.27.1)(eslint@9.28.0)
       '@glimmer/syntax': 0.92.3
       content-tag: 2.0.3
       eslint-scope: 7.2.2
@@ -11915,27 +11900,36 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-compat-utils@0.5.1(eslint@9.27.0):
+  eslint-compat-utils@0.5.1(eslint@9.28.0):
     dependencies:
-      eslint: 9.27.0
+      eslint: 9.28.0
       semver: 7.7.2
 
-  eslint-config-prettier@10.1.5(eslint@8.57.1):
+  eslint-config-prettier@10.1.5(eslint@9.28.0):
     dependencies:
-      eslint: 8.57.1
+      eslint: 9.28.0
 
   eslint-config-prettier@9.1.0(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-prettier@9.1.0(eslint@9.27.0):
+  eslint-config-prettier@9.1.0(eslint@9.28.0):
     dependencies:
-      eslint: 9.27.0
+      eslint: 9.28.0
 
   eslint-config-simplabs@0.4.0(eslint@8.57.1):
     dependencies:
       ember-cli-version-checker: 1.3.1
       eslint: 8.57.1
+      execa: 0.6.3
+      fs-extra: 2.1.2
+      pify: 2.3.0
+      supports-color: 3.2.3
+
+  eslint-config-simplabs@0.4.0(eslint@9.28.0):
+    dependencies:
+      ember-cli-version-checker: 1.3.1
+      eslint: 9.28.0
       execa: 0.6.3
       fs-extra: 2.1.2
       pify: 2.3.0
@@ -11959,14 +11953,14 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
 
-  eslint-plugin-ember@12.5.0(@babel/core@7.27.1)(eslint@8.57.1):
+  eslint-plugin-ember@12.5.0(@babel/core@7.27.1)(eslint@9.28.0):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       css-tree: 3.1.0
-      ember-eslint-parser: 0.5.9(@babel/core@7.27.1)(eslint@8.57.1)
+      ember-eslint-parser: 0.5.9(@babel/core@7.27.1)(eslint@9.28.0)
       ember-rfc176-data: 0.3.18
-      eslint: 8.57.1
-      eslint-utils: 3.0.0(eslint@8.57.1)
+      eslint: 9.28.0
+      eslint-utils: 3.0.0(eslint@9.28.0)
       estraverse: 5.3.0
       lodash.camelcase: 4.3.0
       lodash.kebabcase: 4.1.1
@@ -11975,35 +11969,19 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
 
-  eslint-plugin-ember@12.5.0(@babel/core@7.27.1)(eslint@9.27.0):
+  eslint-plugin-es-x@7.8.0(eslint@9.28.0):
     dependencies:
-      '@ember-data/rfc395-data': 0.0.4
-      css-tree: 3.1.0
-      ember-eslint-parser: 0.5.9(@babel/core@7.27.1)(eslint@9.27.0)
-      ember-rfc176-data: 0.3.18
-      eslint: 9.27.0
-      eslint-utils: 3.0.0(eslint@9.27.0)
-      estraverse: 5.3.0
-      lodash.camelcase: 4.3.0
-      lodash.kebabcase: 4.1.1
-      requireindex: 1.2.0
-      snake-case: 3.0.4
-    transitivePeerDependencies:
-      - '@babel/core'
-
-  eslint-plugin-es-x@7.8.0(eslint@9.27.0):
-    dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0)
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0)
       '@eslint-community/regexpp': 4.12.1
-      eslint: 9.27.0
-      eslint-compat-utils: 0.5.1(eslint@9.27.0)
+      eslint: 9.28.0
+      eslint-compat-utils: 0.5.1(eslint@9.28.0)
 
-  eslint-plugin-n@17.18.0(eslint@9.27.0):
+  eslint-plugin-n@17.18.0(eslint@9.28.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0)
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0)
       enhanced-resolve: 5.18.1
-      eslint: 9.27.0
-      eslint-plugin-es-x: 7.8.0(eslint@9.27.0)
+      eslint: 9.28.0
+      eslint-plugin-es-x: 7.8.0(eslint@9.28.0)
       get-tsconfig: 4.10.1
       globals: 15.15.0
       ignore: 5.3.2
@@ -12018,25 +11996,25 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 9.1.0(eslint@8.57.1)
 
-  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3):
+  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.3):
     dependencies:
-      eslint: 8.57.1
+      eslint: 9.28.0
       prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.7
     optionalDependencies:
       '@types/eslint': 9.6.1
-      eslint-config-prettier: 10.1.5(eslint@8.57.1)
+      eslint-config-prettier: 10.1.5(eslint@9.28.0)
 
-  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3):
+  eslint-plugin-prettier@5.4.1(@types/eslint@9.6.1)(eslint-config-prettier@9.1.0(eslint@9.28.0))(eslint@9.28.0)(prettier@3.5.3):
     dependencies:
-      eslint: 8.57.1
+      eslint: 9.28.0
       prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.7
     optionalDependencies:
       '@types/eslint': 9.6.1
-      eslint-config-prettier: 9.1.0(eslint@8.57.1)
+      eslint-config-prettier: 9.1.0(eslint@9.28.0)
 
   eslint-plugin-qunit@8.1.2(eslint@8.57.1):
     dependencies:
@@ -12045,9 +12023,9 @@ snapshots:
     transitivePeerDependencies:
       - eslint
 
-  eslint-plugin-qunit@8.1.2(eslint@9.27.0):
+  eslint-plugin-qunit@8.1.2(eslint@9.28.0):
     dependencies:
-      eslint-utils: 3.0.0(eslint@9.27.0)
+      eslint-utils: 3.0.0(eslint@9.28.0)
       requireindex: 1.2.0
     transitivePeerDependencies:
       - eslint
@@ -12072,9 +12050,9 @@ snapshots:
       eslint: 8.57.1
       eslint-visitor-keys: 2.1.0
 
-  eslint-utils@3.0.0(eslint@9.27.0):
+  eslint-utils@3.0.0(eslint@9.28.0):
     dependencies:
-      eslint: 9.27.0
+      eslint: 9.28.0
       eslint-visitor-keys: 2.1.0
 
   eslint-visitor-keys@2.1.0: {}
@@ -12126,15 +12104,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint@9.27.0:
+  eslint@9.28.0:
     dependencies:
-      '@eslint-community/eslint-utils': 4.7.0(eslint@9.27.0)
+      '@eslint-community/eslint-utils': 4.7.0(eslint@9.28.0)
       '@eslint-community/regexpp': 4.12.1
       '@eslint/config-array': 0.20.0
       '@eslint/config-helpers': 0.2.2
       '@eslint/core': 0.14.0
       '@eslint/eslintrc': 3.3.1
-      '@eslint/js': 9.27.0
+      '@eslint/js': 9.28.0
       '@eslint/plugin-kit': 0.3.1
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
