@@ -18,8 +18,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       ember-cli-babel:
-        specifier: ^7.26.4
-        version: 7.26.11
+        specifier: ^8.0.0
+        version: 8.2.0(@babel/core@7.26.10)
       ember-cli-version-checker:
         specifier: ^5.1.2
         version: 5.1.2
