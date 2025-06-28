@@ -43,8 +43,8 @@ importers:
         specifier: 5.5.1
         version: 5.5.1(@types/eslint@9.6.1)(eslint-config-prettier@10.1.5(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2)
       eslint-plugin-qunit:
-        specifier: 8.1.2
-        version: 8.1.2(eslint@8.57.1)
+        specifier: 8.2.2
+        version: 8.2.2(eslint@8.57.1)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -3696,6 +3696,10 @@ packages:
 
   eslint-plugin-qunit@8.1.2:
     resolution: {integrity: sha512-2gDQdHlQW8GVXD7YYkO8vbm9Ldc60JeGMuQN5QlD48OeZ8znBvvoHWZZMeXjvoDPReGaLEvyuWrDtrI8bDbcqw==}
+    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
+
+  eslint-plugin-qunit@8.2.2:
+    resolution: {integrity: sha512-C56SpGPyUOgXWaTiQbwKaDQHEF7MbKUmWtKkIybK5vL3Dqk+4U3ng0wARIUxsk2YNPFzPvlQcMMP6jlQz2NlvQ==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
 
   eslint-scope@5.1.1:
@@ -12227,6 +12231,13 @@ snapshots:
   eslint-plugin-qunit@8.1.2(eslint@9.29.0):
     dependencies:
       eslint-utils: 3.0.0(eslint@9.29.0)
+      requireindex: 1.2.0
+    transitivePeerDependencies:
+      - eslint
+
+  eslint-plugin-qunit@8.2.2(eslint@8.57.1):
+    dependencies:
+      eslint-utils: 3.0.0(eslint@8.57.1)
       requireindex: 1.2.0
     transitivePeerDependencies:
       - eslint
