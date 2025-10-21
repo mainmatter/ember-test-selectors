@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       release-plan:
-        specifier: 0.16.0
-        version: 0.16.0
+        specifier: 0.17.2
+        version: 0.17.2
 
   ember-test-selectors:
     dependencies:
@@ -6180,8 +6180,8 @@ packages:
     resolution: {integrity: sha512-NZQZdC5wOE/H3UT28fVGL+ikOZcEzfMGk/c3iN9UGxzWHMa1op7274oyiUVrAG4B2EuFhus8SvkaYnhvW92p9Q==}
     hasBin: true
 
-  release-plan@0.16.0:
-    resolution: {integrity: sha512-S2hrXACiy39LenrdvPAhSY7PcitS4A4fAxlzoPgYyCiS2OU6Ed+cUKvN4h9/uRyZ/B3AMGywZUIPtIhCUIjTng==}
+  release-plan@0.17.2:
+    resolution: {integrity: sha512-LgE/3CU8sFZt28uJR886xvWdw/CL0g5g5YSFTAJUvUy5qdERZdcc1pu317nKpYFs/yEDjiUasLj3rxnXBJf1zA==}
     hasBin: true
 
   remote-git-tags@3.0.0:
@@ -9442,7 +9442,7 @@ snapshots:
 
   '@types/minimatch@6.0.0':
     dependencies:
-      minimatch: 7.4.6
+      minimatch: 10.0.3
 
   '@types/node@24.8.1':
     dependencies:
@@ -15060,7 +15060,7 @@ snapshots:
     dependencies:
       jsesc: 3.1.0
 
-  release-plan@0.16.0:
+  release-plan@0.17.2:
     dependencies:
       '@manypkg/get-packages': 2.2.2
       '@npmcli/package-json': 6.2.0
