@@ -23,7 +23,7 @@ jobs:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22.x
+          node-version: 24.x
           cache: pnpm
       - run: pnpm install
       - run: pnpm lint
@@ -72,7 +72,7 @@ jobs:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22.x
+          node-version: 24.x
           cache: pnpm
       - run: pnpm install
       - run: pnpm ember try:one ${{ matrix.try-scenario }} --skip-cleanup --- echo "${{ matrix.try-scenario }} installed"
@@ -106,7 +106,7 @@ jobs:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22.x
+          node-version: 24.x
           cache: pnpm
       - run: pnpm install
       - run: pnpm ember try:one ${{ matrix.try-scenario }} --skip-cleanup --- echo "${{ matrix.try-scenario }} installed"
