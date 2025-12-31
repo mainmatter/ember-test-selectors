@@ -55,14 +55,14 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-config-prettier:
-        specifier: 9.1.2
-        version: 9.1.2(eslint@8.57.1)
+        specifier: 10.1.8
+        version: 10.1.8(eslint@8.57.1)
       eslint-config-simplabs:
         specifier: 0.4.0
         version: 0.4.0(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 5.5.4
-        version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2)
+        version: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -6104,6 +6104,7 @@ packages:
   raw-body@1.1.7:
     resolution: {integrity: sha512-WmJJU2e9Y6M5UzTOkHaM7xJGAPQD8PNzx3bAd2+uhZAim6wDk6dAZxPVYLF67XhbR4hmKGh33Lpmh4XWrCH5Mg==}
     engines: {node: '>= 0.8.0'}
+    deprecated: No longer maintained. Please upgrade to a stable version.
 
   raw-body@2.5.2:
     resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
@@ -7290,6 +7291,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -12091,10 +12093,6 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-prettier@9.1.2(eslint@8.57.1):
-    dependencies:
-      eslint: 8.57.1
-
   eslint-config-prettier@9.1.2(eslint@9.38.0):
     dependencies:
       eslint: 9.38.0
@@ -12200,16 +12198,6 @@ snapshots:
     optionalDependencies:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 10.1.8(eslint@8.57.1)
-
-  eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.6.2):
-    dependencies:
-      eslint: 8.57.1
-      prettier: 3.6.2
-      prettier-linter-helpers: 1.0.0
-      synckit: 0.11.11
-    optionalDependencies:
-      '@types/eslint': 9.6.1
-      eslint-config-prettier: 9.1.2(eslint@8.57.1)
 
   eslint-plugin-qunit@8.1.2(eslint@8.57.1):
     dependencies:
