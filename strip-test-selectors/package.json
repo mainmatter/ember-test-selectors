@@ -13,7 +13,7 @@
     "lint": "eslint . --cache"
   },
   "devDependencies": {
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "eslint-config-prettier": "9.1.2",
     "eslint-config-simplabs": "0.4.0",
     "eslint-plugin-prettier": "5.5.4",
