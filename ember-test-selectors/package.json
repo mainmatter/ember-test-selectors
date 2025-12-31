@@ -18,7 +18,7 @@
     "strip-test-selectors": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-config-simplabs": "0.4.0",
     "eslint-plugin-ember": "12.7.4",
